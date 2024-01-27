@@ -10,44 +10,42 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1fdcdbe6c109dc14f882a98cd86310e4, type: 3}
-  m_Name: Verse_MainMenu_1
+  m_Name: Verse_Intro
   m_EditorClassIdentifier: 
-  track: {fileID: 11400000, guid: ae5bac75e756b6d49988bd8137b82d3e, type: 2}
+  track: {fileID: 11400000, guid: 9bf18569c8bd1d2458983a677e749a74, type: 2}
   bars:
   - beat0:
-      text: To start
+      text: 1
       userInput: 0
-      triggerEvent: {fileID: 0}
+      triggerEvent: {fileID: 11400000, guid: fbd155d7ca527c84d978fed33fc5e97a, type: 2}
     beat1:
-      text: you just need
+      text: 2
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: to type
+      text: 3
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: something
+      text: 4
       userInput: 0
       triggerEvent: {fileID: 0}
   - beat0:
-      text: type start
+      text: 5
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: type start
+      text: 6
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: type start
+      text: 7
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: _____
-      userInput: 1
-      triggerEvent: {fileID: 11400000, guid: 72ceac98719cc734a86f5c590435ff72, type: 2}
+      text: 8
+      userInput: 0
+      triggerEvent: {fileID: 0}
   nextVerses:
   - beatEvent: {fileID: 0}
-    verse: {fileID: 11400000, guid: 0938c1bbb8798a4488c373d3d2c35116, type: 2}
-  - beatEvent: {fileID: 11400000, guid: 26a931684fb0f514a8d08594b2372f3d, type: 2}
-    verse: {fileID: 11400000, guid: 16889cf473789844c84080d33624250f, type: 2}
+    verse: {fileID: 11400000, guid: 59595907127cdbe419e9ee5aa46d1bf9, type: 2}

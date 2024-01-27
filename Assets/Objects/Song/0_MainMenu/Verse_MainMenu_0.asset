@@ -15,29 +15,21 @@ MonoBehaviour:
   track: {fileID: 11400000, guid: 6873f1f222509f04a8f437134cbd17f8, type: 2}
   bars:
   - beat0:
-      text: Hi there
+      text: 
+      userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: I'm a bard
+      text: 
+      userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: Giving you
+      text: 
+      userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: a tale
-      triggerEvent: {fileID: 0}
-  - beat0:
-      text: About something
-      triggerEvent: {fileID: 0}
-    beat1:
-      text: new that
-      triggerEvent: {fileID: 0}
-    beat2:
-      text: you wanna
-      triggerEvent: {fileID: 0}
-    beat3:
-      text: hear.
+      text: 
+      userInput: 0
       triggerEvent: {fileID: 0}
   nextVerses:
   - beatEvent: {fileID: 0}
-    verse: {fileID: 11400000, guid: 205b12097426fff4591349819b4174cb, type: 2}
+    verse: {fileID: 11400000, guid: 102caccf26be7ed4b8629e31277e03c6, type: 2}
