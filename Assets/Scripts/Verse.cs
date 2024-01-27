@@ -14,10 +14,3 @@ public class Verse : ScriptableObject
     public VerseInstance Create() => new VerseInstance(track, bars, nextVerses);
     
 }
-
-[System.Serializable]
-public struct NextVerse
-{
-    public MetronomeEvent beatEvent;
-    public Verse verse;
-}

@@ -31,8 +31,8 @@ public class BackingTrack : MonoBehaviour
     {
         Instance = this;
         float bps = BeatsPerSecond*4;
-        activeTrack = tracks.First(t => t.track == defaultTrack).audioSource;
-        activeTrack.PlayScheduled(AudioSettings.dspTime - (AudioSettings.dspTime % bps) + bps);
+        //activeTrack = tracks.First(t => t.track == defaultTrack).audioSource;
+        //activeTrack.PlayScheduled(AudioSettings.dspTime - (AudioSettings.dspTime % bps) + bps);
     }
 
     public int CurrentBeat()
@@ -60,13 +60,22 @@ public class BackingTrack : MonoBehaviour
         }
         var barEnd = AudioSettings.dspTime;
 
-        // Switch at the end of the current audio clip
-        var remain = activeTrack.clip.length - activeTrack.time % activeTrack.clip.length;
-        fadingTrack = activeTrack;
-        activeTrack = nextTrack;
-        var switchTime = AudioSettings.dspTime + remain;
-        fadingTrack.SetScheduledEndTime(switchTime);
-        activeTrack.PlayScheduled(switchTime);
-        activeTrack.SetScheduledEndTime(double.MaxValue);
+        if (activeTrack)
+        {
+            // Switch at the end of the current audio clip
+            var remain = activeTrack.clip.length - activeTrack.time % activeTrack.clip.length;
+            fadingTrack = activeTrack;
+            activeTrack = nextTrack;
+            var switchTime = AudioSettings.dspTime + remain;
+            fadingTrack.SetScheduledEndTime(switchTime);
+            activeTrack.PlayScheduled(switchTime);
+            activeTrack.SetScheduledEndTime(double.MaxValue);
+        }
+        else
+        {
+            float bps = BeatsPerSecond*4;
+            activeTrack = nextTrack;
+            activeTrack.PlayScheduled(AudioSettings.dspTime - (AudioSettings.dspTime % bps) + bps);
+        }
     }
 }

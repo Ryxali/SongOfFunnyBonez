@@ -7,5 +7,5 @@ public class MetronomeEvent : ScriptableObject
 
     // Something something trigger enqueue another verse
 
-    public void Trigger() => onTrigger(this);
+    public virtual void Trigger() => onTrigger(this);
 }
