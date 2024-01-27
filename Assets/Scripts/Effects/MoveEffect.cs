@@ -20,7 +20,6 @@ public class MoveEffect : MonoEffect
     }
     protected override void OnEvent()
     {
-        Debug.Log("Move!");
         steps++;
         transform.position = origin + Vector3.right *  steps * distancePerStep;
         var angle = Random.Range(minAngle, maxAngle);
