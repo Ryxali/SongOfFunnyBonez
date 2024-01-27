@@ -16,6 +16,7 @@ public class VerseInstance
         this.bars = bars;
         if(nextVerses.Any(v => !v.beatEvent))
         {
+            nextVerse = new Dictionary<MetronomeEvent, Verse>();
             autoNextVerse = nextVerses.First().verse;
         }
         else
@@ -35,8 +36,12 @@ public class VerseInstance
 
         if (autoNextVerse && barIndex == 0 && beatIndex == 0)
         {
+            if(bars.Any(b => b.beat0.userInput || b.beat1.userInput || b.beat2.userInput || b.beat3.userInput))
+            {
+                PlayerInputCollector.Instance.Clear();
+            }
             //onEnqueueVerse(autoNextVerse);
-            KaraokeCanvas.Instance.UpdateText(string.Join(" ", bars.Select(b => $"{b.beat0.text} {b.beat1.text} {b.beat2.text} {b.beat3.text}")));
+            KaraokeCanvas.Instance.UpdateText(string.Join(" ", bars.Select(b => $"{b.beat0.Text} {b.beat1.Text} {b.beat2.Text} {b.beat3.Text}")));
         }
 
         if (beat.triggerEvent)
