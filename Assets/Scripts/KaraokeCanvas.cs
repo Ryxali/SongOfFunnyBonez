@@ -30,9 +30,9 @@ public class KaraokeCanvas : MonoBehaviour
 
     private string Format()
     {
-        return Regex.Replace(currentText, @"%([^%]*)%", ev =>
+        return Regex.Replace(currentText, @"%(_*)([^%]*)%", ev =>
         {
-            return PlayerInputCollector.Instance.Current.PadRight(ev.Groups[1].Value.Length, '_');
+            return PlayerInputCollector.Instance.Current.PadRight(ev.Groups[1].Value.Length, '_') + ev.Groups[2].Value;
         });
     }
 }
