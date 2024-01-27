@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class MetronomeSprite : MonoBehaviour
@@ -10,7 +11,9 @@ public class MetronomeSprite : MonoBehaviour
     [SerializeField]
     private GameObject specificShow;
     [SerializeField]
-    private Beat beat;
+    private TMP_Text text;
+    [SerializeField]
+    private Beat[] beats;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +23,8 @@ public class MetronomeSprite : MonoBehaviour
     private void Metronome_onTick(Beat obj)
     {
         toShow.SetActive(!toShow.activeSelf);
-        specificShow.SetActive(obj == beat);
+        specificShow.SetActive(obj == beats[3]);
+        text.SetText(obj.name);
     }
 
     private IEnumerator ShowTemp(GameObject o)
