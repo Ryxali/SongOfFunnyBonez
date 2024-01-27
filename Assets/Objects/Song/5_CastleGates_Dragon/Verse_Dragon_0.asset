@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1fdcdbe6c109dc14f882a98cd86310e4, type: 3}
-  m_Name: Verse_Forest_0
+  m_Name: Verse_Dragon_0
   m_EditorClassIdentifier: 
   track: {fileID: 11400000, guid: ae5bac75e756b6d49988bd8137b82d3e, type: 2}
   bars:
   - beat0:
-      text: Suddenly a Crow?
+      text: Dragooooon
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
@@ -48,4 +48,4 @@ MonoBehaviour:
       triggerEvent: {fileID: 0}
   nextVerses:
   - beatEvent: {fileID: 0}
-    verse: {fileID: 11400000}
+    verse: {fileID: 11400000, guid: 018494aef0fe081419fbfd72228433a5, type: 2}

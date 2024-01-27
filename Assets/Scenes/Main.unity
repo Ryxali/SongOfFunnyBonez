@@ -776,61 +776,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1455109959959659729, guid: 8f69bbc0ca8d8ca4dab6640daeda0a79, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 10.99
-      objectReference: {fileID: 0}
-    - target: {fileID: 1455109959959659729, guid: 8f69bbc0ca8d8ca4dab6640daeda0a79, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 4.04
-      objectReference: {fileID: 0}
-    - target: {fileID: 4094435145724493692, guid: 8f69bbc0ca8d8ca4dab6640daeda0a79, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -7.17
-      objectReference: {fileID: 0}
-    - target: {fileID: 4094435145724493692, guid: 8f69bbc0ca8d8ca4dab6640daeda0a79, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 3.12
-      objectReference: {fileID: 0}
-    - target: {fileID: 7239897835933388593, guid: 8f69bbc0ca8d8ca4dab6640daeda0a79, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 21.506
-      objectReference: {fileID: 0}
-    - target: {fileID: 7239897835933388593, guid: 8f69bbc0ca8d8ca4dab6640daeda0a79, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 4.019
-      objectReference: {fileID: 0}
     - target: {fileID: 7757442374555678408, guid: 8f69bbc0ca8d8ca4dab6640daeda0a79, type: 3}
       propertyPath: m_Name
       value: World
-      objectReference: {fileID: 0}
-    - target: {fileID: 8157656732235658632, guid: 8f69bbc0ca8d8ca4dab6640daeda0a79, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.2696
-      objectReference: {fileID: 0}
-    - target: {fileID: 8157656732235658632, guid: 8f69bbc0ca8d8ca4dab6640daeda0a79, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.2696
-      objectReference: {fileID: 0}
-    - target: {fileID: 8157656732235658632, guid: 8f69bbc0ca8d8ca4dab6640daeda0a79, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.2696
-      objectReference: {fileID: 0}
-    - target: {fileID: 8157656732235658632, guid: 8f69bbc0ca8d8ca4dab6640daeda0a79, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 20.46
-      objectReference: {fileID: 0}
-    - target: {fileID: 8157656732235658632, guid: 8f69bbc0ca8d8ca4dab6640daeda0a79, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.93
-      objectReference: {fileID: 0}
-    - target: {fileID: 9214713332315794772, guid: 8f69bbc0ca8d8ca4dab6640daeda0a79, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 8.28
-      objectReference: {fileID: 0}
-    - target: {fileID: 9214713332315794772, guid: 8f69bbc0ca8d8ca4dab6640daeda0a79, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f69bbc0ca8d8ca4dab6640daeda0a79, type: 3}
@@ -844,6 +792,10 @@ PrefabInstance:
     - target: {fileID: 3722077426158848133, guid: ebbbe37eb626ce44ebe583c9f8003b57, type: 3}
       propertyPath: m_Name
       value: KaraokeCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 3722077426158848133, guid: ebbbe37eb626ce44ebe583c9f8003b57, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3722077426158848135, guid: ebbbe37eb626ce44ebe583c9f8003b57, type: 3}
       propertyPath: m_AdditionalShaderChannelsFlag

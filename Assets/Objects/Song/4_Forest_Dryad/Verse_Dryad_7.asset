@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fdcdbe6c109dc14f882a98cd86310e4, type: 3}
+  m_Name: Verse_Dryad_7
+  m_EditorClassIdentifier: 
+  track: {fileID: 11400000, guid: 6873f1f222509f04a8f437134cbd17f8, type: 2}
+  bars:
+  - beat0:
+      text: This is the tale
+      userInput: 0
+      triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
+    beat1:
+      text: of Funny Bonez,
+      userInput: 0
+      triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
+    beat2:
+      text: Once a happy
+      userInput: 0
+      triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
+    beat3:
+      text: and uplifting fella,
+      userInput: 0
+      triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
+  - beat0:
+      text: rose from the grave
+      userInput: 0
+      triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
+    beat1:
+      text: of sticks and stones,
+      userInput: 0
+      triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
+    beat2:
+      text: a necromancer with
+      userInput: 0
+      triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
+    beat3:
+      text: love of acapella.
+      userInput: 0
+      triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
+  nextVerses:
+  - beatEvent: {fileID: 0}
+    verse: {fileID: 11400000, guid: 42ee6054ac4ed5b4cb83f02c7cfffe2c, type: 2}
