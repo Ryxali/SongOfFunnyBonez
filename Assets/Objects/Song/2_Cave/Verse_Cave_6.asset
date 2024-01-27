@@ -10,42 +10,42 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1fdcdbe6c109dc14f882a98cd86310e4, type: 3}
-  m_Name: Verse_Cave_0
+  m_Name: Verse_Cave_6
   m_EditorClassIdentifier: 
   track: {fileID: 11400000, guid: 6873f1f222509f04a8f437134cbd17f8, type: 2}
   bars:
   - beat0:
-      text: He lies dead with merely
+      text: Funny Bonez
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: bones to his name,
+      text: looked down
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: as we begin but soon
+      text: where his arm
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: he shall rise again.
+      text: used to stay.
       userInput: 0
       triggerEvent: {fileID: 0}
   - beat0:
-      text: He cast the spell
+      text: An empty socket,
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 'he knew so well:'
+      text: disarmed,
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: Get Up At the
+      text: no charm,
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: Sound of the Bell!
+      text: 'no humor. '
       userInput: 0
       triggerEvent: {fileID: 0}
   nextVerses:
   - beatEvent: {fileID: 0}
-    verse: {fileID: 11400000, guid: 354df5065bc6d694fab92c17b1d83548, type: 2}
+    verse: {fileID: 11400000, guid: d4d92c87991d24745bf00444c3ca600c, type: 2}

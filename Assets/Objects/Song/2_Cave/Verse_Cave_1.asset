@@ -12,40 +12,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1fdcdbe6c109dc14f882a98cd86310e4, type: 3}
   m_Name: Verse_Cave_1
   m_EditorClassIdentifier: 
-  track: {fileID: 11400000, guid: 20e0e5357d349bd47ac9dd9f7342f471, type: 2}
+  track: {fileID: 11400000, guid: 6873f1f222509f04a8f437134cbd17f8, type: 2}
   bars:
   - beat0:
-      text: 1
+      text: Funny Bonez rose again
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 2
+      text: a hero ready
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 3
+      text: for a journey
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: 4
+      text: of pain
       userInput: 0
       triggerEvent: {fileID: 0}
   - beat0:
-      text: 5
+      text: The spell is fabulous,
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 6
+      text: Funny Bonez is not,
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 7
+      text: he will use it for all,
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: 10
+      text: but not a lot.
       userInput: 0
       triggerEvent: {fileID: 0}
   nextVerses:
   - beatEvent: {fileID: 0}
-    verse: {fileID: 11400000, guid: 59595907127cdbe419e9ee5aa46d1bf9, type: 2}
+    verse: {fileID: 11400000, guid: a6e04c52107d8d94ba395286323c062b, type: 2}

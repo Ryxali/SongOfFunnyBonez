@@ -10,42 +10,42 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1fdcdbe6c109dc14f882a98cd86310e4, type: 3}
-  m_Name: Verse_Cave_0
+  m_Name: Verse_Cave_5
   m_EditorClassIdentifier: 
   track: {fileID: 11400000, guid: 6873f1f222509f04a8f437134cbd17f8, type: 2}
   bars:
   - beat0:
-      text: He lies dead with merely
+      text: He knew that
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: bones to his name,
+      text: Dave was better,
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: as we begin but soon
+      text: in every
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: he shall rise again.
+      text: single way,
       userInput: 0
       triggerEvent: {fileID: 0}
   - beat0:
-      text: He cast the spell
+      text: Dave still had
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 'he knew so well:'
+      text: his arm,
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: Get Up At the
+      text: his charm,
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: Sound of the Bell!
+      text: his humor.
       userInput: 0
       triggerEvent: {fileID: 0}
   nextVerses:
   - beatEvent: {fileID: 0}
-    verse: {fileID: 11400000, guid: 354df5065bc6d694fab92c17b1d83548, type: 2}
+    verse: {fileID: 11400000, guid: e97f9ce1d909e8f41bd866517930a11d, type: 2}

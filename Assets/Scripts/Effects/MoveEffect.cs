@@ -3,6 +3,8 @@
 public class MoveEffect : MonoEffect
 {
     [SerializeField]
+    private Transform tiltTransform;
+    [SerializeField]
     private float distancePerStep;
 
     private bool angleDir;
@@ -24,7 +26,7 @@ public class MoveEffect : MonoEffect
         transform.position = origin + Vector3.right *  steps * distancePerStep;
         var angle = Random.Range(minAngle, maxAngle);
         if (angleDir) angle = -angle;
-        transform.rotation = Quaternion.Euler(0, 0, angle);
+        tiltTransform.rotation = Quaternion.Euler(0, 0, angle);
         angleDir = !angleDir;
     }
 }
