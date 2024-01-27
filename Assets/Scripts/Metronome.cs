@@ -9,7 +9,7 @@ public class Metronome : MonoBehaviour
 
     private BackingTrack backingTrack;
     private double next = 0f;
-    private int beatI;
+    private int beatI = -1;
 
     private void Awake()
     {

@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using UnityEngine;
 
 public class VerseInstance
 {
@@ -32,9 +33,10 @@ public class VerseInstance
         var bar = bars[barIndex];
         var beat = new[] { bar.beat0, bar.beat1, bar.beat2, bar.beat3 }[beatIndex];
 
-        if(autoNextVerse && barIndex == 0 && beatIndex == 0)
+        if (autoNextVerse && barIndex == 0 && beatIndex == 0)
         {
-            onEnqueueVerse(autoNextVerse);
+            //onEnqueueVerse(autoNextVerse);
+            KaraokeCanvas.Instance.UpdateText(string.Join(" ", bars.Select(b => $"{b.beat0.text} {b.beat1.text} {b.beat2.text} {b.beat3.text}")));
         }
 
         if (beat.triggerEvent)
@@ -47,6 +49,8 @@ public class VerseInstance
             barIndex++;
             if(barIndex >= bars.Length)
             {
+                if(autoNextVerse)
+                    onEnqueueVerse(autoNextVerse);
                 moveNext = true;
             }
         }
@@ -54,13 +58,13 @@ public class VerseInstance
 
     public void Prepare()
     {
-        if(track)
-            BackingTrack.Instance.SwitchTrack(track);
     }
 
     public void Enter()
     {
-        KaraokeCanvas.Instance.UpdateText(string.Join(" ", bars.Select(b => $"{b.beat0.text} {b.beat1.text} {b.beat2.text} {b.beat3.text}")));
+        if (track)
+            BackingTrack.Instance.SwitchTrack(track);
+        //KaraokeCanvas.Instance.UpdateText(string.Join(" ", bars.Select(b => $"{b.beat0.text} {b.beat1.text} {b.beat2.text} {b.beat3.text}")));
         MetronomeEvent.onTrigger += MetronomeEvent_onTrigger;
     }
 
