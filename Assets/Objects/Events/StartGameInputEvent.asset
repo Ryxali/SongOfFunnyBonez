@@ -9,6 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6994ebf3a7814344fa91ff0fff047e95, type: 3}
-  m_Name: UseInputEvent
+  m_Script: {fileID: 11500000, guid: a3fb90422ab7fe843b6ccaaf6ab25215, type: 3}
+  m_Name: StartGameInputEvent
   m_EditorClassIdentifier: 
+  acceptedInput:
+  - inputString: start
+    trigger: {fileID: 11400000, guid: 26a931684fb0f514a8d08594b2372f3d, type: 2}

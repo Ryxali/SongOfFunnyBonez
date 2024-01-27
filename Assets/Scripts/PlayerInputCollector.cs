@@ -43,6 +43,5 @@ public class PlayerInputCollector : MonoBehaviour
                 Current += c;
             }
         }
-        Debug.Log(Current);
     }
 }
