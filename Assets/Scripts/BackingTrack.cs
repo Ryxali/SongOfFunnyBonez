@@ -5,6 +5,10 @@ using UnityEngine;
 
 public class BackingTrack : MonoBehaviour
 {
+    public float BeatsPerMinute => beatsPerMinute;
+    public float BeatsPerSecond => beatsPerMinute / 60f;
+    [SerializeField]
+    private float beatsPerMinute;
     [SerializeField]
     private Pairing[] tracks;
 
@@ -13,6 +17,7 @@ public class BackingTrack : MonoBehaviour
     {
         public Track track;
         public AudioSource audioSource;
+        public float[] beatTimes;
     }
 
     [SerializeField]
@@ -23,9 +28,24 @@ public class BackingTrack : MonoBehaviour
 
     private void Awake()
     {
-        const float Bps = 70f / 300f;
+        float bps = BeatsPerSecond*4;
         activeTrack = tracks.First(t => t.track == defaultTrack).audioSource;
-        activeTrack.PlayScheduled(AudioSettings.dspTime - AudioSettings.dspTime % Bps + Bps);
+        activeTrack.PlayScheduled(AudioSettings.dspTime - (AudioSettings.dspTime % bps) + bps);
+    }
+
+    public int CurrentBeat()
+    {
+        var track = fadingTrack && fadingTrack.isPlaying ? fadingTrack : activeTrack;
+        var beatTimes = tracks.First(t => t.audioSource = track).beatTimes;
+        var samplePosition = track.timeSamples;
+        var playbackTime = track.time % track.clip.length;
+        
+        for(int i = beatTimes.Length-1; i >= 0; i--)
+        {
+            if (beatTimes[i] <= playbackTime)
+                return i % 4;
+        }
+        return -1;
     }
 
     public void SwitchTrack(Track track)

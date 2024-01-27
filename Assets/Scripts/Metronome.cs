@@ -7,20 +7,35 @@ public class Metronome : MonoBehaviour
     [SerializeField]
     private Beat[] beats;
 
-    [SerializeField]
-    private int bpm = 70;
+    private BackingTrack backingTrack;
+    private double next = 0f;
+    private int beatI;
 
-    // Start is called before the first frame update
-    IEnumerator Start()
+    private void Awake()
     {
-        while (true)
-        {
-            for(int i = 0; i < beats.Length; i++)
-            {
-                onTick(beats[i]);
+        backingTrack = GetComponentInChildren<BackingTrack>();
+        var bps = backingTrack.BeatsPerSecond;
+        next = AudioSettings.dspTime - (AudioSettings.dspTime % bps) + bps;
+    }
 
-                yield return new WaitForSeconds(80f/60f);
-            }
+    private void Update()
+    {
+        var current = backingTrack.CurrentBeat();
+        if (current >= 0 && beatI != current)
+        {
+            beatI = current;
+            onTick(beats[current]);
         }
+        //var dspTime = AudioSettings.dspTime;
+        
+        //if(next <= dspTime)
+        //{
+        //    var bps = backingTrack.BeatsPerSecond;
+        //    next = AudioSettings.dspTime - AudioSettings.dspTime % bps + bps;
+        //    Debug.Log(beats[beatI]);
+        //    onTick(beats[beatI]);
+        //    beatI = (beatI + 1) % beats.Length;
+        //}
+
     }
 }
