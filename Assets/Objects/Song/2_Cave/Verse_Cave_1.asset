@@ -31,7 +31,7 @@ MonoBehaviour:
       userInput: 0
       triggerEvent: {fileID: 0}
   - beat0:
-      text: The spell is fabulous,
+      text: The spell is <style=keyword>fabulous</style>,
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:

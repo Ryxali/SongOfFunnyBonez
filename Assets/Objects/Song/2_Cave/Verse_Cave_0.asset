@@ -39,11 +39,11 @@ MonoBehaviour:
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: Get Up At the
+      text: <style=keyword>Get Up At the</style>
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: Sound of the Bell!
+      text: <style=keyword>Sound of the Bell!</style>
       userInput: 0
       triggerEvent: {fileID: 0}
   nextVerses:
