@@ -12,6 +12,9 @@ public class BackingTrack : MonoBehaviour
     private float beatsPerMinute;
     [SerializeField]
     private Pairing[] tracks;
+    [SerializeField]
+    private AudioSource[] songSources;
+    private int songSourcesIter;
 
     [System.Serializable]
     private struct Pairing
@@ -50,32 +53,46 @@ public class BackingTrack : MonoBehaviour
         return -1;
     }
 
-    public void SwitchTrack(Track track)
+    public void SwitchTrack(Track track, AudioClip song)
     {
-        var nextTrack = tracks.First(t => t.track == track).audioSource;
-        if(nextTrack == activeTrack)
-        {
-            Debug.LogWarning("No switch track to itself");
-            return;
-        }
+        
+        var nextTrack = track ? tracks.First(t => t.track == track).audioSource : activeTrack;
         var barEnd = AudioSettings.dspTime;
 
         if (activeTrack)
         {
             // Switch at the end of the current audio clip
             var remain = activeTrack.clip.length - activeTrack.time % activeTrack.clip.length;
-            fadingTrack = activeTrack;
-            activeTrack = nextTrack;
             var switchTime = AudioSettings.dspTime + remain;
-            fadingTrack.SetScheduledEndTime(switchTime);
-            activeTrack.PlayScheduled(switchTime);
-            activeTrack.SetScheduledEndTime(double.MaxValue);
+            if (song)
+            {
+                var songSource = songSources[songSourcesIter];
+                songSource.clip = song;
+                songSource.PlayScheduled(switchTime);
+                songSourcesIter = (songSourcesIter + 1) % songSources.Length;
+            }
+            if (activeTrack != nextTrack)
+            {
+                fadingTrack = activeTrack;
+                activeTrack = nextTrack;
+                fadingTrack.SetScheduledEndTime(switchTime);
+                activeTrack.PlayScheduled(switchTime);
+                activeTrack.SetScheduledEndTime(double.MaxValue);
+            }
         }
         else
         {
             float bps = BeatsPerSecond*4;
             activeTrack = nextTrack;
-            activeTrack.PlayScheduled(AudioSettings.dspTime - (AudioSettings.dspTime % bps) + bps);
+            var switchTime = AudioSettings.dspTime - (AudioSettings.dspTime % bps) + bps;
+            activeTrack.PlayScheduled(switchTime);
+            if (song)
+            {
+                var songSource = songSources[songSourcesIter];
+                songSource.clip = song;
+                songSource.PlayScheduled(switchTime);
+                songSourcesIter = (songSourcesIter + 1) % songSources.Length;
+            }
         }
     }
 }

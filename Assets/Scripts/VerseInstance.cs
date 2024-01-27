@@ -11,18 +11,20 @@ public class VerseInstance
     private readonly Bar[] bars;
     private readonly Dictionary<MetronomeEvent, Verse> nextVerse;
     private readonly Verse autoNextVerse;
+    private readonly AudioClip songClip;
     private readonly StringBuilder stringBuilder;
 
-    public VerseInstance(Track track, Bar[] bars, NextVerse[] nextVerses)
+    public VerseInstance(Track track, Bar[] bars, NextVerse[] nextVerses, AudioClip songClip)
     {
         stringBuilder = new StringBuilder();
         this.track = track;
         this.bars = bars;
-        if(nextVerses.Any(v => !v.beatEvent))
+        if (nextVerses.Any(v => !v.beatEvent))
         {
             autoNextVerse = nextVerses.First().verse;
         }
         nextVerse = nextVerses.Where(v => v.beatEvent).ToDictionary(k => k.beatEvent, v => v.verse);
+        this.songClip = songClip;
     }
 
 
@@ -107,8 +109,7 @@ public class VerseInstance
     public void Enter()
     {
         triggeredAnyEvent = false;
-        if (track)
-            BackingTrack.Instance.SwitchTrack(track);
+        BackingTrack.Instance.SwitchTrack(track, songClip);
         //KaraokeCanvas.Instance.UpdateText(string.Join(" ", bars.Select(b => $"{b.beat0.text} {b.beat1.text} {b.beat2.text} {b.beat3.text}")));
         MetronomeEvent.onTrigger += MetronomeEvent_onTrigger;
     }
