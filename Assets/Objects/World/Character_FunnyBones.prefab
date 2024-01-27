@@ -76,6 +76,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8882989615978766929}
   - component: {fileID: 4870450139215505111}
+  - component: {fileID: 8359965014776094992}
   m_Layer: 0
   m_Name: Circle (2)
   m_TagString: Untagged
@@ -150,6 +151,62 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8359965014776094992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1437056709957130234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f89b74b14d30e44ab868d0d3df3049b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  event: {fileID: 11400000, guid: 270f43b516a63e746ac6871917764f6b, type: 2}
+  revealCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 7.680583
+      outSlope: 7.680583
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.081526905
+    - serializedVersion: 3
+      time: 0.35841778
+      value: 1.3086354
+      inSlope: -0.013120513
+      outSlope: -0.013120513
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.37039152
+    - serializedVersion: 3
+      time: 0.7002865
+      value: 0.8362938
+      inSlope: -0.04243208
+      outSlope: -0.04243208
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.21911608
+    - serializedVersion: 3
+      time: 1
+      value: 1.0020161
+      inSlope: -0.0019843304
+      outSlope: -0.0019843304
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 1
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  revealMode: 1
 --- !u!1 &2704129525853801510
 GameObject:
   m_ObjectHideFlags: 0
@@ -160,6 +217,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3177379160777672015}
   - component: {fileID: 3498895891476750605}
+  - component: {fileID: 1826557599194225659}
   m_Layer: 0
   m_Name: Circle (1)
   m_TagString: Untagged
@@ -234,6 +292,62 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1826557599194225659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2704129525853801510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f89b74b14d30e44ab868d0d3df3049b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  event: {fileID: 11400000, guid: d82d7c5c3a9480240b2b1bef78f5b580, type: 2}
+  revealCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 7.680583
+      outSlope: 7.680583
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.081526905
+    - serializedVersion: 3
+      time: 0.35841778
+      value: 1.3086354
+      inSlope: -0.013120513
+      outSlope: -0.013120513
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.37039152
+    - serializedVersion: 3
+      time: 0.7002865
+      value: 0.8362938
+      inSlope: -0.04243208
+      outSlope: -0.04243208
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.21911608
+    - serializedVersion: 3
+      time: 1
+      value: 1.0020161
+      inSlope: -0.0019843304
+      outSlope: -0.0019843304
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 1
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  revealMode: 1
 --- !u!1 &2887152031587896569
 GameObject:
   m_ObjectHideFlags: 0
@@ -399,6 +513,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6321281945101372118}
   - component: {fileID: 3089538919617146409}
+  - component: {fileID: 2891540381669545151}
   m_Layer: 0
   m_Name: Circle
   m_TagString: Untagged
@@ -473,3 +588,59 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2891540381669545151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7856315211132292949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f89b74b14d30e44ab868d0d3df3049b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  event: {fileID: 11400000, guid: 0fbabc69806f8384da7068ea0a4de5be, type: 2}
+  revealCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 7.680583
+      outSlope: 7.680583
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.081526905
+    - serializedVersion: 3
+      time: 0.35841778
+      value: 1.3086354
+      inSlope: -0.013120513
+      outSlope: -0.013120513
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.37039152
+    - serializedVersion: 3
+      time: 0.7002865
+      value: 0.8362938
+      inSlope: -0.04243208
+      outSlope: -0.04243208
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.21911608
+    - serializedVersion: 3
+      time: 1
+      value: 1.0020161
+      inSlope: -0.0019843304
+      outSlope: -0.0019843304
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 1
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  revealMode: 1

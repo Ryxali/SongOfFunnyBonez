@@ -21,15 +21,15 @@ MonoBehaviour:
     beat1:
       text: a hero ready
       userInput: 0
-      triggerEvent: {fileID: 0}
+      triggerEvent: {fileID: 11400000, guid: 0fbabc69806f8384da7068ea0a4de5be, type: 2}
     beat2:
       text: for a journey
       userInput: 0
-      triggerEvent: {fileID: 0}
+      triggerEvent: {fileID: 11400000, guid: d82d7c5c3a9480240b2b1bef78f5b580, type: 2}
     beat3:
       text: of pain
       userInput: 0
-      triggerEvent: {fileID: 0}
+      triggerEvent: {fileID: 11400000, guid: 270f43b516a63e746ac6871917764f6b, type: 2}
   - beat0:
       text: The spell is <style=keyword>fabulous</style>,
       userInput: 0
