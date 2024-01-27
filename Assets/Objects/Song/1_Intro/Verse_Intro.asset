@@ -23,9 +23,9 @@ MonoBehaviour:
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 3
+      text: Walk
       userInput: 0
-      triggerEvent: {fileID: 0}
+      triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
     beat3:
       text: 4
       userInput: 0

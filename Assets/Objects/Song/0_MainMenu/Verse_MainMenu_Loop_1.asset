@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1fdcdbe6c109dc14f882a98cd86310e4, type: 3}
   m_Name: Verse_MainMenu_Loop_1
   m_EditorClassIdentifier: 
-  track: {fileID: 11400000, guid: ae5bac75e756b6d49988bd8137b82d3e, type: 2}
+  track: {fileID: 0}
   bars:
   - beat0:
       text: To start
