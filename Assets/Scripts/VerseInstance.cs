@@ -1,5 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using System.Text;
+using System.Text.RegularExpressions;
 using UnityEngine;
 
 public class VerseInstance
@@ -9,9 +11,11 @@ public class VerseInstance
     private readonly Bar[] bars;
     private readonly Dictionary<MetronomeEvent, Verse> nextVerse;
     private readonly Verse autoNextVerse;
+    private readonly StringBuilder stringBuilder;
 
     public VerseInstance(Track track, Bar[] bars, NextVerse[] nextVerses)
     {
+        stringBuilder = new StringBuilder();
         this.track = track;
         this.bars = bars;
         if(nextVerses.Any(v => !v.beatEvent))
@@ -29,7 +33,7 @@ public class VerseInstance
     public void Tick(out bool moveNext)
     {
         var bar = bars[barIndex];
-        var beat = new[] { bar.beat0, bar.beat1, bar.beat2, bar.beat3 }[beatIndex];
+        var beat = bar[beatIndex];
 
         if (barIndex == 0 && beatIndex == 0)
         {
@@ -37,8 +41,43 @@ public class VerseInstance
             {
                 PlayerInputCollector.Instance.Clear();
             }
-            KaraokeCanvas.Instance.UpdateText(string.Join(" ", bars.Select(b => $"{b.beat0.Text} {b.beat1.Text} {b.beat2.Text} {b.beat3.Text}")));
+            //KaraokeCanvas.Instance.UpdateText(string.Join(" ", bars.Select(b => $"{b.beat0.Text} {b.beat1.Text} {b.beat2.Text} {b.beat3.Text}")));
         }
+
+        stringBuilder.Clear();
+
+        bool appendedTransparent = false;
+        for (int i = 0; i < bars.Length; i++)
+        {
+            var b = bars[i];
+
+            for (int j = 0; j < 4; j++)
+            {
+                var bBeat = b[j];
+
+                if (j <= beatIndex && i <= barIndex)
+                    stringBuilder.Append(bBeat.Text);
+                else
+                    stringBuilder.Append(FormatHidden(bBeat.Text));
+
+                if (beatIndex < 4 || barIndex < bars.Length)
+                {
+                    stringBuilder.Append(' ');
+                }
+
+                if (j == beatIndex && i == barIndex)
+                {
+                    stringBuilder.Append("<color=#00000066>");
+                    appendedTransparent = true;
+                }
+
+            }
+        }
+        if (appendedTransparent)
+            stringBuilder.Append("</color>");
+        KaraokeCanvas.Instance.UpdateText(stringBuilder.ToString());
+
+
 
         if (beat.triggerEvent)
             beat.triggerEvent.Trigger();
@@ -55,6 +94,10 @@ public class VerseInstance
                 moveNext = true;
             }
         }
+    }
+    private string FormatHidden(string str)
+    {
+        return Regex.Replace(str, ">([^>]+)<", "><color=#00000066>$1</color><");
     }
 
     public void Prepare()
