@@ -32,7 +32,7 @@ public class KaraokeCanvas : MonoBehaviour
     {
         return Regex.Replace(currentText, @"%(_*)([^%]*)%", ev =>
         {
-            return PlayerInputCollector.Instance.Current.PadRight(ev.Groups[1].Value.Length, '_') + ev.Groups[2].Value;
+            return "<color=#000000FF>" + PlayerInputCollector.Instance.Current.PadRight(ev.Groups[1].Value.Length, '_') + ev.Groups[2].Value + "</color>";
         });
     }
 }

@@ -133,7 +133,7 @@ MonoBehaviour:
   event: {fileID: 11400000, guid: fbd155d7ca527c84d978fed33fc5e97a, type: 2}
   cameraTarget: {fileID: 1508973739441046904}
   panTarget: {fileID: 988485669706053623}
-  offset: {x: 3, y: 2, z: -10}
+  offset: {x: 3, y: 3.5, z: -10}
 --- !u!1001 &2929719966697794827
 PrefabInstance:
   m_ObjectHideFlags: 0
