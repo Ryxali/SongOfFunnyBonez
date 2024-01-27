@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class BackingTrack : MonoBehaviour
 {
+    public static BackingTrack Instance { get; private set; }
     public float BeatsPerMinute => beatsPerMinute;
     public float BeatsPerSecond => beatsPerMinute / 60f;
     [SerializeField]
@@ -28,6 +29,7 @@ public class BackingTrack : MonoBehaviour
 
     private void Awake()
     {
+        Instance = this;
         float bps = BeatsPerSecond*4;
         activeTrack = tracks.First(t => t.track == defaultTrack).audioSource;
         activeTrack.PlayScheduled(AudioSettings.dspTime - (AudioSettings.dspTime % bps) + bps);
