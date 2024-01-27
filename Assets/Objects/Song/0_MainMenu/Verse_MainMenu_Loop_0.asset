@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fdcdbe6c109dc14f882a98cd86310e4, type: 3}
+  m_Name: Verse_MainMenu_Loop_0
+  m_EditorClassIdentifier: 
+  track: {fileID: 11400000, guid: 6873f1f222509f04a8f437134cbd17f8, type: 2}
+  bars:
+  - beat0:
+      text: Hi there
+      triggerEvent: {fileID: 0}
+    beat1:
+      text: I'm a bard
+      triggerEvent: {fileID: 0}
+    beat2:
+      text: Giving you
+      triggerEvent: {fileID: 0}
+    beat3:
+      text: a tale
+      triggerEvent: {fileID: 0}
+  - beat0:
+      text: About something
+      triggerEvent: {fileID: 0}
+    beat1:
+      text: new that
+      triggerEvent: {fileID: 0}
+    beat2:
+      text: you wanna
+      triggerEvent: {fileID: 0}
+    beat3:
+      text: hear.
+      triggerEvent: {fileID: 0}
+  nextVerses:
+  - beatEvent: {fileID: 0}
+    verse: {fileID: 11400000, guid: 205b12097426fff4591349819b4174cb, type: 2}
