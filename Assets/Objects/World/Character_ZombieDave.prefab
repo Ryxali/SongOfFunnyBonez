@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 821445211618238324}
   - component: {fileID: 2727044053997269204}
+  - component: {fileID: 2805884825961524774}
   m_Layer: 0
   m_Name: ZombieDave
   m_TagString: Untagged
@@ -207,3 +208,49 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2805884825961524774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5298091468522980820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be03e482b840a043b66c24df6d34640, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  event: {fileID: 11400000, guid: 13c916d59f2883843b3aa9b0e03113f2, type: 2}
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: -0.45758823
+      outSlope: -0.45758823
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.42463496
+    - serializedVersion: 3
+      time: 0.122171946
+      value: 1
+      inSlope: 1.0567849
+      outSlope: 1.0567849
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.09020619
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

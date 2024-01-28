@@ -18,7 +18,7 @@ MonoBehaviour:
   - beat0:
       text: '"Appreciate the'
       userInput: 0
-      triggerEvent: {fileID: 0}
+      triggerEvent: {fileID: 11400000, guid: 13c916d59f2883843b3aa9b0e03113f2, type: 2}
     beat1:
       text: compliment",
       userInput: 0
@@ -34,7 +34,7 @@ MonoBehaviour:
   - beat0:
       text: '"Have this metal'
       userInput: 0
-      triggerEvent: {fileID: 0}
+      triggerEvent: {fileID: 11400000, guid: 13c916d59f2883843b3aa9b0e03113f2, type: 2}
     beat1:
       text: thing I found,
       userInput: 0
@@ -42,7 +42,7 @@ MonoBehaviour:
     beat2:
       text: for your later
       userInput: 0
-      triggerEvent: {fileID: 0}
+      triggerEvent: {fileID: 11400000, guid: 13c916d59f2883843b3aa9b0e03113f2, type: 2}
     beat3:
       text: great success."
       userInput: 0
