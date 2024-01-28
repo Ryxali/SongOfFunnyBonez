@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1fdcdbe6c109dc14f882a98cd86310e4, type: 3}
-  m_Name: Verse_RestartingGame_0
+  m_Name: Verse_MainMenu_00
   m_EditorClassIdentifier: 
   track: {fileID: 11400000, guid: b461b449ea2393d47a405ca564e0653e, type: 2}
-  song: {fileID: 0}
+  song: {fileID: 8300000, guid: d8cd2f4d919750a43befe6cdfbd46b4d, type: 3}
   bars:
   - beat0:
-      text: Don't worry we'll be right back with a scheduled installment
+      text: 
       userInput: 0
-      triggerEvent: {fileID: 11400000, guid: e9f8d72389b116840be11600b324b689, type: 2}
+      triggerEvent: {fileID: 0}
     beat1:
       text: 
       userInput: 0
@@ -46,7 +46,7 @@ MonoBehaviour:
     beat3:
       text: 
       userInput: 0
-      triggerEvent: {fileID: 11400000, guid: f64ff205c65e15e4383dd10ac899574e, type: 2}
+      triggerEvent: {fileID: 0}
   nextVerses:
   - beatEvent: {fileID: 0}
-    verse: {fileID: 11400000, guid: 8d88d91125a33db4eb0eb7cbf7b6c815, type: 2}
+    verse: {fileID: 11400000, guid: 2d3a0e346747c8442b3885eeb6154f2a, type: 2}
