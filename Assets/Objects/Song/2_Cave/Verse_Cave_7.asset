@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Verse_Cave_7
   m_EditorClassIdentifier: 
   track: {fileID: 11400000, guid: 6873f1f222509f04a8f437134cbd17f8, type: 2}
+  song: {fileID: 0}
   bars:
   - beat0:
       text: The Maggots,
@@ -48,6 +49,6 @@ MonoBehaviour:
       triggerEvent: {fileID: 11400000, guid: 06c1a9a5fb5e3df4f9b8ee6d2f468b81, type: 2}
   nextVerses:
   - beatEvent: {fileID: 0}
-    verse: {fileID: 11400000, guid: 5762610ba256d1441b9264d580b11e88, type: 2}
+    verse: {fileID: 11400000, guid: 370a689ed957a4c4d9a796732f495635, type: 2}
   - beatEvent: {fileID: 11400000, guid: 2838684013dd43140ac124a7967231f4, type: 2}
     verse: {fileID: 11400000, guid: 02ccf22b3555ddc40ae5ae408c929fb2, type: 2}

@@ -10,42 +10,42 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1fdcdbe6c109dc14f882a98cd86310e4, type: 3}
-  m_Name: Walk_2.0
+  m_Name: Verse_Dryad_Taleof_2
   m_EditorClassIdentifier: 
-  track: {fileID: 0}
+  track: {fileID: 11400000, guid: 6873f1f222509f04a8f437134cbd17f8, type: 2}
   bars:
   - beat0:
-      text: Rose from the
+      text: This is the tale
       userInput: 0
       triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
     beat1:
-      text: grave of
+      text: of Funny Bonez,
       userInput: 0
       triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
     beat2:
-      text: sticks and
+      text: Once a happy
       userInput: 0
       triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
     beat3:
-      text: stones,
+      text: and uplifting fella,
       userInput: 0
       triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
   - beat0:
-      text: a necro
+      text: rose from the grave
       userInput: 0
       triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
     beat1:
-      text: mancer with love
+      text: of sticks and stones,
       userInput: 0
       triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
     beat2:
-      text: of
+      text: a necromancer with
       userInput: 0
       triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
     beat3:
-      text: acapella.
+      text: love of acapella.
       userInput: 0
       triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
   nextVerses:
   - beatEvent: {fileID: 0}
-    verse: {fileID: 11400000, guid: 66d0bc9cc7d5e094d8900241e4e2ef2f, type: 2}
+    verse: {fileID: 11400000, guid: aff1fd7e680723147a85a41fb77a4c36, type: 2}

@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: Verse_Cave_8_Fail
   m_EditorClassIdentifier: 
   track: {fileID: 0}
+  song: {fileID: 0}
   bars:
   - beat0:
-      text: 
+      text: Come on, its not fun if you don't contribute to the song!
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
@@ -46,4 +47,6 @@ MonoBehaviour:
       text: great success."
       userInput: 0
       triggerEvent: {fileID: 0}
-  nextVerses: []
+  nextVerses:
+  - beatEvent: {fileID: 0}
+    verse: {fileID: 11400000, guid: ae2041acdae408143acfa73e0b31b686, type: 2}
