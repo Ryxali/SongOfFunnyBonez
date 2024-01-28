@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Verse_Cave_1
   m_EditorClassIdentifier: 
   track: {fileID: 11400000, guid: 6873f1f222509f04a8f437134cbd17f8, type: 2}
+  song: {fileID: 0}
   bars:
   - beat0:
       text: He cast
@@ -33,7 +34,7 @@ MonoBehaviour:
   - beat0:
       text: <style=keyword>Get Up</style>
       userInput: 0
-      triggerEvent: {fileID: 0}
+      triggerEvent: {fileID: 11400000, guid: 9647844881294854087184e32d188564, type: 2}
     beat1:
       text: <style=keyword>At the</style>
       userInput: 0
@@ -41,11 +42,11 @@ MonoBehaviour:
     beat2:
       text: <style=keyword>Sound of</style>
       userInput: 0
-      triggerEvent: {fileID: 0}
+      triggerEvent: {fileID: 11400000, guid: 5a46312144c506c4f9db638ec4c425f5, type: 2}
     beat3:
       text: <style=keyword>the Bell!</style>
       userInput: 0
-      triggerEvent: {fileID: 0}
+      triggerEvent: {fileID: 11400000, guid: bff3b7408f1096843b883d00b2022065, type: 2}
   nextVerses:
   - beatEvent: {fileID: 0}
     verse: {fileID: 11400000, guid: a6e04c52107d8d94ba395286323c062b, type: 2}
