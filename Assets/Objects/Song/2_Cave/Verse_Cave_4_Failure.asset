@@ -25,7 +25,7 @@ MonoBehaviour:
     beat2:
       text: "\u201CYou know I\u2019m sensitive"
       userInput: 0
-      triggerEvent: {fileID: 0}
+      triggerEvent: {fileID: 11400000, guid: dfa5c748f56f7f74795bf1b22aea6726, type: 2}
     beat3:
       text: "about my blue shirt!\u201D"
       userInput: 0
@@ -48,4 +48,4 @@ MonoBehaviour:
       triggerEvent: {fileID: 0}
   nextVerses:
   - beatEvent: {fileID: 0}
-    verse: {fileID: 11400000, guid: 7a156ca1c1adfc841a90f85880ae2cdb, type: 2}
+    verse: {fileID: 11400000, guid: 02ccf22b3555ddc40ae5ae408c929fb2, type: 2}

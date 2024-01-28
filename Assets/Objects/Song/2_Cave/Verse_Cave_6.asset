@@ -15,35 +15,35 @@ MonoBehaviour:
   track: {fileID: 11400000, guid: 6873f1f222509f04a8f437134cbd17f8, type: 2}
   bars:
   - beat0:
-      text: Funny Bonez
+      text: Dave asked
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: looked down
+      text: how his
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: where his arm
+      text: new blue shirt
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: used to stay.
+      text: did look,
       userInput: 0
       triggerEvent: {fileID: 0}
   - beat0:
-      text: An empty socket,
+      text: Charles, Kingston
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: disarmed,
+      text: and Mittens
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: no charm,
+      text: had it
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: 'no humor. '
+      text: overlooked.
       userInput: 0
       triggerEvent: {fileID: 0}
   nextVerses:

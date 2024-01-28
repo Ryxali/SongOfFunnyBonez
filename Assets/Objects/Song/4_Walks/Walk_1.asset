@@ -10,42 +10,42 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1fdcdbe6c109dc14f882a98cd86310e4, type: 3}
-  m_Name: Verse_Intro
+  m_Name: Walk_1
   m_EditorClassIdentifier: 
-  track: {fileID: 11400000, guid: 9bf18569c8bd1d2458983a677e749a74, type: 2}
+  track: {fileID: 0}
   bars:
   - beat0:
       text: The epic
       userInput: 0
-      triggerEvent: {fileID: 11400000, guid: fbd155d7ca527c84d978fed33fc5e97a, type: 2}
+      triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
     beat1:
       text: 'tale of '
       userInput: 0
-      triggerEvent: {fileID: 0}
+      triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
     beat2:
       text: Funny
       userInput: 0
-      triggerEvent: {fileID: 0}
+      triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
     beat3:
       text: Bonez,
       userInput: 0
-      triggerEvent: {fileID: 0}
+      triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
   - beat0:
       text: Once a
       userInput: 0
-      triggerEvent: {fileID: 0}
+      triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
     beat1:
       text: happy
       userInput: 0
-      triggerEvent: {fileID: 0}
+      triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
     beat2:
       text: and up
       userInput: 0
-      triggerEvent: {fileID: 0}
+      triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
     beat3:
       text: lifting fella.
       userInput: 0
-      triggerEvent: {fileID: 0}
+      triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
   nextVerses:
   - beatEvent: {fileID: 0}
-    verse: {fileID: 11400000, guid: 023dde115ed1bc14b91ae0c264d28824, type: 2}
+    verse: {fileID: 0}

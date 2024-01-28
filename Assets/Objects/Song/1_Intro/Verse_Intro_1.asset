@@ -10,42 +10,42 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1fdcdbe6c109dc14f882a98cd86310e4, type: 3}
-  m_Name: Verse_Intro
+  m_Name: Verse_Intro_1
   m_EditorClassIdentifier: 
   track: {fileID: 11400000, guid: 9bf18569c8bd1d2458983a677e749a74, type: 2}
   bars:
   - beat0:
-      text: The epic
+      text: Rose from the
       userInput: 0
-      triggerEvent: {fileID: 11400000, guid: fbd155d7ca527c84d978fed33fc5e97a, type: 2}
+      triggerEvent: {fileID: 0}
     beat1:
-      text: 'tale of '
+      text: grave of
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: Funny
+      text: sticks and
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: Bonez,
+      text: stones,
       userInput: 0
       triggerEvent: {fileID: 0}
   - beat0:
-      text: Once a
+      text: a necro
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: happy
+      text: mancer with love
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: and up
+      text: of
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: lifting fella.
+      text: acapella.
       userInput: 0
       triggerEvent: {fileID: 0}
   nextVerses:
   - beatEvent: {fileID: 0}
-    verse: {fileID: 11400000, guid: 023dde115ed1bc14b91ae0c264d28824, type: 2}
+    verse: {fileID: 11400000, guid: 59595907127cdbe419e9ee5aa46d1bf9, type: 2}

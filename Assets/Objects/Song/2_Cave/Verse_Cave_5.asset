@@ -15,35 +15,35 @@ MonoBehaviour:
   track: {fileID: 11400000, guid: 6873f1f222509f04a8f437134cbd17f8, type: 2}
   bars:
   - beat0:
-      text: He knew that
+      text: A fellow
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: Dave was better,
+      text: necromancer
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: in every
+      text: it seems,
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: single way,
+      text: though
       userInput: 0
       triggerEvent: {fileID: 0}
   - beat0:
-      text: Dave still had
+      text: still some
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: his arm,
+      text: flesh and
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: his charm,
+      text: brimming with
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: his humor.
+      text: dreams.
       userInput: 0
       triggerEvent: {fileID: 0}
   nextVerses:
