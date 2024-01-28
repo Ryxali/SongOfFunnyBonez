@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1fdcdbe6c109dc14f882a98cd86310e4, type: 3}
-  m_Name: Verse_Crow_3
+  m_Name: Verse_Culprit_ 13
   m_EditorClassIdentifier: 
   track: {fileID: 11400000, guid: ae5bac75e756b6d49988bd8137b82d3e, type: 2}
   song: {fileID: 0}
   bars:
   - beat0:
-      text: "\u201CI think I will need a Bribe to tell you such a tale!\u201D"
+      text: Suddenly a Crow?
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
@@ -32,7 +32,7 @@ MonoBehaviour:
       userInput: 0
       triggerEvent: {fileID: 0}
   - beat0:
-      text: 'it proclaimed ruining the vibe. But Funny Bonez needed this sale. '
+      text: 
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
@@ -49,4 +49,4 @@ MonoBehaviour:
       triggerEvent: {fileID: 0}
   nextVerses:
   - beatEvent: {fileID: 0}
-    verse: {fileID: 11400000, guid: c1c69c092f737404db18d065af1a0031, type: 2}
+    verse: {fileID: 11400000, guid: 315871f9290bb894cb86a619cab656da, type: 2}
