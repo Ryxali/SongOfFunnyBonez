@@ -17,4 +17,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f02e1dce331d5ff4b802fc7b86005d39, type: 2}
   - {fileID: 11400000, guid: 4bab86d6645b29842ad7b6920456cd67, type: 2}
   - {fileID: 11400000, guid: 2c070d227bba082498da56f2b80ae6b6, type: 2}
-  startVerse: {fileID: 11400000, guid: 26226666379883d4f87b4aa470da5568, type: 2}
+  startVerse: {fileID: 11400000, guid: 10d550649930ba140bf72263bed5853f, type: 2}

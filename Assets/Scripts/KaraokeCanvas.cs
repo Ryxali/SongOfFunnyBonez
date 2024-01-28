@@ -25,7 +25,10 @@ public class KaraokeCanvas : MonoBehaviour
 
     private void LateUpdate()
     {
-        text.text = Format();
+        if (!string.IsNullOrEmpty(currentText))
+        {
+            text.text = Format();
+        }
     }
 
     private string Format()

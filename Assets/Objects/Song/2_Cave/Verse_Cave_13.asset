@@ -19,7 +19,7 @@ MonoBehaviour:
       text: "\u201CI\u2019ll have to find who took it\u201D And I rather find it
         sooner"
       userInput: 0
-      triggerEvent: {fileID: 0}
+      triggerEvent: {fileID: 11400000, guid: 86daea3e8fb316e40858aca7d8a7d49a, type: 2}
     beat1:
       text: 
       userInput: 0
@@ -27,7 +27,7 @@ MonoBehaviour:
     beat2:
       text: 
       userInput: 0
-      triggerEvent: {fileID: 0}
+      triggerEvent: {fileID: 11400000, guid: 86daea3e8fb316e40858aca7d8a7d49a, type: 2}
     beat3:
       text: 
       userInput: 0
