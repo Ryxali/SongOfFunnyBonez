@@ -10,43 +10,43 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1fdcdbe6c109dc14f882a98cd86310e4, type: 3}
-  m_Name: Verse_MainMenu_1
+  m_Name: Verse_MainMenu_00_Loop
   m_EditorClassIdentifier: 
   track: {fileID: 11400000, guid: 6873f1f222509f04a8f437134cbd17f8, type: 2}
-  song: {fileID: 0}
+  song: {fileID: 8300000, guid: 10f35d3c4b64bae43b2e4f6c548cb2f0, type: 3}
   bars:
   - beat0:
-      text: 'All you '
+      text: Mmm,
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: have to do
+      text: yea.
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: is to just....
+      text: Yea!
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: Start me.
+      text: 'I''m '
       userInput: 0
       triggerEvent: {fileID: 0}
   - beat0:
-      text: 
+      text: your
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 
+      text: Bard
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: for the
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: 
+      text: evening.
       userInput: 0
       triggerEvent: {fileID: 0}
   nextVerses:
   - beatEvent: {fileID: 0}
-    verse: {fileID: 11400000, guid: 0938c1bbb8798a4488c373d3d2c35116, type: 2}
+    verse: {fileID: 11400000, guid: 2d3a0e346747c8442b3885eeb6154f2a, type: 2}

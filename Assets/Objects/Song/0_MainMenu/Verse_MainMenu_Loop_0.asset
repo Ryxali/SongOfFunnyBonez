@@ -13,31 +13,42 @@ MonoBehaviour:
   m_Name: Verse_MainMenu_Loop_0
   m_EditorClassIdentifier: 
   track: {fileID: 11400000, guid: 6873f1f222509f04a8f437134cbd17f8, type: 2}
+  song: {fileID: 0}
   bars:
   - beat0:
-      text: Hi there
+      text: Just... Just
+      userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: I'm a bard
+      text: type the word
+      userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: Giving you
+      text: '"Start".'
+      userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: a tale
+      text: Type it right
+      userInput: 0
       triggerEvent: {fileID: 0}
   - beat0:
-      text: About something
+      text: 'here: Type the'
+      userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: new that
+      text: word "Start".
+      userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: you wanna
+      text: I'll tell you this tale.
+      userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: hear.
-      triggerEvent: {fileID: 0}
+      text: ______
+      userInput: 1
+      triggerEvent: {fileID: 11400000, guid: 72ceac98719cc734a86f5c590435ff72, type: 2}
   nextVerses:
   - beatEvent: {fileID: 0}
-    verse: {fileID: 11400000, guid: 205b12097426fff4591349819b4174cb, type: 2}
+    verse: {fileID: 11400000, guid: 991ff861baa11ee468b769219f5e0025, type: 2}
+  - beatEvent: {fileID: 11400000, guid: 26a931684fb0f514a8d08594b2372f3d, type: 2}
+    verse: {fileID: 11400000, guid: 16889cf473789844c84080d33624250f, type: 2}
