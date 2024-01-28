@@ -15,9 +15,13 @@ public class MetronomeSprite : MonoBehaviour
     [SerializeField]
     private Beat[] beats;
     // Start is called before the first frame update
-    void Start()
+    private void OnEnable()
     {
         Metronome.onTick += Metronome_onTick;
+    }
+    private void OnDisable()
+    {
+        Metronome.onTick -= Metronome_onTick;
     }
 
     private void Metronome_onTick(Beat obj)

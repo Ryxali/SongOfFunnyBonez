@@ -10,43 +10,43 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1fdcdbe6c109dc14f882a98cd86310e4, type: 3}
-  m_Name: Verse_Cave_2
+  m_Name: Verse_RestartingGame_0
   m_EditorClassIdentifier: 
-  track: {fileID: 11400000, guid: 6873f1f222509f04a8f437134cbd17f8, type: 2}
+  track: {fileID: 11400000, guid: b461b449ea2393d47a405ca564e0653e, type: 2}
   song: {fileID: 0}
   bars:
   - beat0:
-      text: The spell is
+      text: Don't worry we'll be right back with a scheduled installment
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: <style=keyword>fabulous,</style>,
+      text: 
       userInput: 0
-      triggerEvent: {fileID: 0}
+      triggerEvent: {fileID: 11400000, guid: f64ff205c65e15e4383dd10ac899574e, type: 2}
     beat2:
-      text: Funny Bonez
+      text: 
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: is not.
+      text: 
       userInput: 0
       triggerEvent: {fileID: 0}
   - beat0:
-      text: 'He will '
+      text: 
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: use it all
+      text: 
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: but not
+      text: 
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: alot.
+      text: 
       userInput: 0
       triggerEvent: {fileID: 0}
   nextVerses:
   - beatEvent: {fileID: 0}
-    verse: {fileID: 11400000, guid: ce33fd0ddf2ab144d8fcdebc33ce521c, type: 2}
+    verse: {fileID: 11400000, guid: 8d88d91125a33db4eb0eb7cbf7b6c815, type: 2}
