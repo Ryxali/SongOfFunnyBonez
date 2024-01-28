@@ -49,4 +49,4 @@ MonoBehaviour:
       triggerEvent: {fileID: 0}
   nextVerses:
   - beatEvent: {fileID: 0}
-    verse: {fileID: 11400000, guid: cc894b88eb8b9074a87b723d96d7b188, type: 2}
+    verse: {fileID: 11400000, guid: 35b4d43fae8173146a0f8419625186a5, type: 2}
