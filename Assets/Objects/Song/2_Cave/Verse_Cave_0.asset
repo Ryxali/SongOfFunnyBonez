@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Verse_Cave_0
   m_EditorClassIdentifier: 
   track: {fileID: 11400000, guid: 6873f1f222509f04a8f437134cbd17f8, type: 2}
+  song: {fileID: 8300000, guid: 86131f66457393d47a25cab20793ae23, type: 3}
   bars:
   - beat0:
       text: He lies

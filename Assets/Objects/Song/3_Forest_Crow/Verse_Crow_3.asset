@@ -18,7 +18,7 @@ MonoBehaviour:
   - beat0:
       text: "\u201CI think I will"
       userInput: 0
-      triggerEvent: {fileID: 0}
+      triggerEvent: {fileID: 11400000, guid: 13c916d59f2883843b3aa9b0e03113f2, type: 2}
     beat1:
       text: need a <style=keyword>Bribe</style>
       userInput: 0
@@ -26,7 +26,7 @@ MonoBehaviour:
     beat2:
       text: to tell you such
       userInput: 0
-      triggerEvent: {fileID: 0}
+      triggerEvent: {fileID: 11400000, guid: 13c916d59f2883843b3aa9b0e03113f2, type: 2}
     beat3:
       text: a tale!"
       userInput: 0

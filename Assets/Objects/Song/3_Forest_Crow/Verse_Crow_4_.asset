@@ -18,7 +18,7 @@ MonoBehaviour:
   - beat0:
       text: "\u201CTo me"
       userInput: 0
-      triggerEvent: {fileID: 0}
+      triggerEvent: {fileID: 11400000, guid: 86daea3e8fb316e40858aca7d8a7d49a, type: 2}
     beat1:
       text: my Humor
       userInput: 0
@@ -26,7 +26,7 @@ MonoBehaviour:
     beat2:
       text: I have to
       userInput: 0
-      triggerEvent: {fileID: 0}
+      triggerEvent: {fileID: 11400000, guid: 86daea3e8fb316e40858aca7d8a7d49a, type: 2}
     beat3:
       text: rejoin!
       userInput: 0
@@ -34,7 +34,7 @@ MonoBehaviour:
   - beat0:
       text: 'Tell me '
       userInput: 0
-      triggerEvent: {fileID: 0}
+      triggerEvent: {fileID: 11400000, guid: 86daea3e8fb316e40858aca7d8a7d49a, type: 2}
     beat1:
       text: 'and you '
       userInput: 0
@@ -42,7 +42,7 @@ MonoBehaviour:
     beat2:
       text: will get this
       userInput: 0
-      triggerEvent: {fileID: 0}
+      triggerEvent: {fileID: 11400000, guid: 86daea3e8fb316e40858aca7d8a7d49a, type: 2}
     beat3:
       text: "____\u201D"
       userInput: 1

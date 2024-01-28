@@ -8,7 +8,7 @@ public class StartFadeImage : MonoBehaviour
     [SerializeField]
     private AnimationCurve fadeCurve;
     [SerializeField]
-    private Image image;
+    private CanvasGroup image;
     [SerializeField]
     private Beat triggerBeat;
     [SerializeField]
@@ -48,9 +48,7 @@ public class StartFadeImage : MonoBehaviour
         var end = t + duration;
         while(Time.time < end)
         {
-            var c = image.color;
-            c.a = fadeCurve.Evaluate(Time.time - t);
-            image.color = c;
+            image.alpha = fadeCurve.Evaluate(Time.time - t);
             yield return null;
         }
         gameObject.SetActive(false);

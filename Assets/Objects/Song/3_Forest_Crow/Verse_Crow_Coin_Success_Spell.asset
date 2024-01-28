@@ -18,7 +18,7 @@ MonoBehaviour:
   - beat0:
       text: "\u201CHmph, I guess "
       userInput: 0
-      triggerEvent: {fileID: 0}
+      triggerEvent: {fileID: 11400000, guid: 13c916d59f2883843b3aa9b0e03113f2, type: 2}
     beat1:
       text: 'I can '
       userInput: 0
