@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Verse_Crow_the tale of 3
   m_EditorClassIdentifier: 
   track: {fileID: 0}
-  song: {fileID: 0}
+  song: {fileID: 8300000, guid: 70ff883a86c3f14498f19b9762ba4657, type: 3}
   bars:
   - beat0:
       text: The epic
