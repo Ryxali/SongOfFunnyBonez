@@ -48,5 +48,5 @@ MonoBehaviour:
       userInput: 0
       triggerEvent: {fileID: 0}
   nextVerses:
-  - beatEvent: {fileID: 11400000, guid: 26cd5460aa8e7f848b7325eecf633076, type: 2}
+  - beatEvent: {fileID: 0}
     verse: {fileID: 11400000}
