@@ -57,12 +57,14 @@ public class VerseInstance
             {
                 var bBeat = b[j];
 
+                var beatText = bBeat.Text;
                 if (j <= beatIndex && i <= barIndex)
-                    stringBuilder.Append(bBeat.Text);
+                    stringBuilder.Append(beatText);
                 else
-                    stringBuilder.Append(FormatHidden(bBeat.Text));
+                    stringBuilder.Append(FormatHidden(beatText));
 
-                if (beatIndex < 4 || barIndex < bars.Length)
+                if ((beatIndex < 4 || barIndex < bars.Length) && !string.IsNullOrWhiteSpace(beatText)
+                    )
                 {
                     stringBuilder.Append(' ');
                 }
