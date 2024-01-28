@@ -18,7 +18,7 @@ MonoBehaviour:
   - beat0:
       text: The spell is
       userInput: 0
-      triggerEvent: {fileID: 0}
+      triggerEvent: {fileID: 11400000, guid: 0ca996a03b2942c4ca11cfab5792d74c, type: 2}
     beat1:
       text: <style=keyword>fabulous,</style>,
       userInput: 0

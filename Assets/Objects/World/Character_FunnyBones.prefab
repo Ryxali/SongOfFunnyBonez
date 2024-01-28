@@ -119,6 +119,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 768754513174117096}
+  - component: {fileID: 5382664839139323930}
+  - component: {fileID: 7231145443281090909}
+  - component: {fileID: 8817401371465669241}
   m_Layer: 0
   m_Name: Tilt
   m_TagString: Untagged
@@ -142,6 +145,53 @@ Transform:
   m_Father: {fileID: 3208898795532331618}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5382664839139323930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1320093291568774078}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37860975499dc4345873670834ecc249, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tilts:
+  - beat: {fileID: 11400000, guid: f02e1dce331d5ff4b802fc7b86005d39, type: 2}
+    minAngle: 1
+    maxAngle: 3
+  - beat: {fileID: 11400000, guid: 2c070d227bba082498da56f2b80ae6b6, type: 2}
+    minAngle: -1
+    maxAngle: 3
+--- !u!114 &7231145443281090909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1320093291568774078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a68bdf8b3f74f564a98403f30a56cd1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  event: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
+  component: {fileID: 5382664839139323930}
+--- !u!114 &8817401371465669241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1320093291568774078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa9e765a89e59814c8d5790a1e978099, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  event: {fileID: 11400000, guid: 0ca996a03b2942c4ca11cfab5792d74c, type: 2}
+  component: {fileID: 5382664839139323930}
 --- !u!1 &1437056709957130234
 GameObject:
   m_ObjectHideFlags: 0
@@ -576,6 +626,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6015268810297167922}
   - component: {fileID: 4640074453970009769}
+  - component: {fileID: 6078742185674979092}
   m_Layer: 0
   m_Name: FunnyBonez
   m_TagString: Untagged
@@ -650,6 +701,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &6078742185674979092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5875360255295163994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be03e482b840a043b66c24df6d34640, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  event: {fileID: 11400000, guid: 86daea3e8fb316e40858aca7d8a7d49a, type: 2}
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: -0.45758823
+      outSlope: -0.45758823
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.42463496
+    - serializedVersion: 3
+      time: 0.122171946
+      value: 1
+      inSlope: 1.0567849
+      outSlope: 1.0567849
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.09020619
+    - serializedVersion: 3
+      time: 0.9
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &7856315211132292949
 GameObject:
   m_ObjectHideFlags: 0
