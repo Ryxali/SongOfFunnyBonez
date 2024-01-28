@@ -16,23 +16,23 @@ MonoBehaviour:
   song: {fileID: 0}
   bars:
   - beat0:
-      text: "Come on, its not fun if you don\u2019t contribute to the song!"
+      text: 'Come on, '
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 
+      text: 'its not fun '
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: "if you don\u2019t "
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: 
+      text: 'contribute to '
       userInput: 0
       triggerEvent: {fileID: 0}
   - beat0:
-      text: 
+      text: the song!
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:

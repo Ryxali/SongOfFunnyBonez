@@ -16,31 +16,31 @@ MonoBehaviour:
   song: {fileID: 0}
   bars:
   - beat0:
-      text: Funny Bonez looked around only to C a harp. In a moment of genius,
+      text: Funny Bonez
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 
+      text: looked around
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: only to <style=keyword>C</style>
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: 
+      text: a harp.
       userInput: 0
       triggerEvent: {fileID: 0}
   - beat0:
-      text: Funny Bonez played a
+      text: In a moment of genius,
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 
+      text: Funny Bonez
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: played a
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:

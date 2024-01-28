@@ -16,35 +16,35 @@ MonoBehaviour:
   song: {fileID: 0}
   bars:
   - beat0:
-      text: "\u201CCongratulations Skelly boy, What a joy this have been,"
+      text: "\u201CCongratulations"
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 
+      text: Skelly boy,
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: What a joy
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: 
+      text: this has been,
       userInput: 0
       triggerEvent: {fileID: 0}
   - beat0:
-      text: "Now this homeboy has to deploy and take these wings for a spin!\u201D"
+      text: Now this homeboy
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 
+      text: has to deploy
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: and take these wings
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: 
+      text: "for a spin!\u201D"
       userInput: 0
       triggerEvent: {fileID: 0}
   nextVerses:

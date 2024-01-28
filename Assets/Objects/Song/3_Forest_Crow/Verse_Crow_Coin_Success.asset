@@ -16,39 +16,37 @@ MonoBehaviour:
   song: {fileID: 0}
   bars:
   - beat0:
-      text: 'The Crow then smiled with malicious mannerisms, and skipped all its
-        devious fictitious formalisms.  '
+      text: The Crow then
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 
+      text: smiled with
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: malicious
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: 
+      text: mannerisms,
       userInput: 0
       triggerEvent: {fileID: 0}
   - beat0:
-      text: 'The bone you seek has gone down this trail, now leave me this instant
-        or your bones will grow frail.  '
+      text: and skipped all
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 
+      text: its devious
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: fictitious
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: 
+      text: formalisms.
       userInput: 0
       triggerEvent: {fileID: 0}
   nextVerses:
   - beatEvent: {fileID: 0}
-    verse: {fileID: 11400000, guid: c109df4a48f0b8646b000030c2f4461e, type: 2}
+    verse: {fileID: 11400000, guid: 95255db0feafc5b43a31957d123aaa20, type: 2}

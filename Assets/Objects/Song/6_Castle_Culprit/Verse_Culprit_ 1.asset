@@ -20,31 +20,31 @@ MonoBehaviour:
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: Funny Bonez now has arrived.
+      text: Funny Bonez
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: now has
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: 
+      text: arrived.
       userInput: 0
       triggerEvent: {fileID: 0}
   - beat0:
-      text: He searched to find the culprit of whom he did despise.
+      text: He searched to find
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 
+      text: the culprit
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: of whom he did
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: 
+      text: despise.
       userInput: 0
       triggerEvent: {fileID: 0}
   nextVerses:

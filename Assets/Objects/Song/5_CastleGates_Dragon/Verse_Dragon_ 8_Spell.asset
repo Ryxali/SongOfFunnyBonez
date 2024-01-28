@@ -16,36 +16,35 @@ MonoBehaviour:
   song: {fileID: 0}
   bars:
   - beat0:
-      text: "\u201CHuh?! How in the world did you do that? hey wait up! thats cheating!\u201D
-        The dragon cried as Funny Bonez waltz right in. "
+      text: "\u201CHuh?! How in the world"
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 
+      text: did you do that?
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: hey wait up!
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: 
+      text: "thats cheating!\u201D"
       userInput: 0
       triggerEvent: {fileID: 0}
   - beat0:
-      text: 
+      text: The dragon cried
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 
+      text: as Funny Bonez
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: waltz
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: 
+      text: right in.
       userInput: 0
       triggerEvent: {fileID: 0}
   nextVerses:

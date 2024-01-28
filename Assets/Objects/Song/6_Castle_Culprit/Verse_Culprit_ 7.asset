@@ -16,36 +16,36 @@ MonoBehaviour:
   song: {fileID: 0}
   bars:
   - beat0:
-      text: "\u201CYou took my humor.\u201D Funny Bonez exclaimed!"
+      text: "\u201CBut with it comes "
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 
+      text: 'my humor! '
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: 'Without it '
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: 
+      text: "I\u2019m just Bonez. "
       userInput: 0
       triggerEvent: {fileID: 0}
   - beat0:
-      text: "\u201CTo keep as a memento\u201D, the Culprit explained."
+      text: 'so tell me '
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 
+      text: "you \u2620\uFE0F boomer, "
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: now you will atone!
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: 
-      userInput: 0
+      text: ' ____'
+      userInput: 1
       triggerEvent: {fileID: 0}
   nextVerses:
   - beatEvent: {fileID: 0}

@@ -16,35 +16,35 @@ MonoBehaviour:
   song: {fileID: 0}
   bars:
   - beat0:
-      text: Funny Bonez knew such creatures were brimming with intellect,
+      text: Funny Bonez knew such
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 
+      text: creatures were
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: brimming with
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: 
+      text: intellect,
       userInput: 0
       triggerEvent: {fileID: 0}
   - beat0:
-      text: 'he figured they must know the way so with the crow he checked!  '
+      text: he figured they must
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 
+      text: know the way so
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: with the crow
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: 
+      text: he checked!
       userInput: 0
       triggerEvent: {fileID: 0}
   nextVerses:

@@ -16,35 +16,35 @@ MonoBehaviour:
   song: {fileID: 0}
   bars:
   - beat0:
-      text: "But it didn\u2019t work, the door just wouldn\u2019t budge."
+      text: "But it didn\u2019t work,"
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 
+      text: the door
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: "just wouldn\u2019t"
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: 
+      text: budge.
       userInput: 0
       triggerEvent: {fileID: 0}
   - beat0:
-      text: 'The door stood firm, its strength he had misjudged.  '
+      text: The door stood firm,
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 
+      text: its strength
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: he had
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: 
+      text: misjudged.
       userInput: 0
       triggerEvent: {fileID: 0}
   nextVerses:

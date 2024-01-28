@@ -16,35 +16,35 @@ MonoBehaviour:
   song: {fileID: 0}
   bars:
   - beat0:
-      text: "\u201CI think I will need a Bribe to tell you such a tale!\u201D"
+      text: "\u201CI think I will"
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 
+      text: need a <style=keyword>Bribe</style>
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: to tell you such
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: 
+      text: a tale!"
       userInput: 0
       triggerEvent: {fileID: 0}
   - beat0:
-      text: 'it proclaimed ruining the vibe. But Funny Bonez needed this sale. '
+      text: it proclaimed
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 
+      text: ruining the vibe.
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: But Funny Bonez needed
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: 
+      text: this sale.
       userInput: 0
       triggerEvent: {fileID: 0}
   nextVerses:

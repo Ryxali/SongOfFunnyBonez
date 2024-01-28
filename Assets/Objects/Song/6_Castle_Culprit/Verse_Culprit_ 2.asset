@@ -16,19 +16,19 @@ MonoBehaviour:
   song: {fileID: 0}
   bars:
   - beat0:
-      text: Funny Bonez found a human sitting on a throne,
+      text: Funny Bonez
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 
+      text: found a human
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: sitting on
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: 
+      text: a throne,
       userInput: 0
       triggerEvent: {fileID: 0}
   - beat0:
@@ -40,11 +40,11 @@ MonoBehaviour:
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: "Go get your own!\u201D "
+      text: Go get
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: 
+      text: your own!
       userInput: 0
       triggerEvent: {fileID: 0}
   nextVerses:

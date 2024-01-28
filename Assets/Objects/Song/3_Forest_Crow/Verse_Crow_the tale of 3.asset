@@ -10,43 +10,43 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1fdcdbe6c109dc14f882a98cd86310e4, type: 3}
-  m_Name: Verse_Crow_the tale of 2
+  m_Name: Verse_Crow_the tale of 3
   m_EditorClassIdentifier: 
   track: {fileID: 0}
   song: {fileID: 0}
   bars:
   - beat0:
-      text: Rose from the
+      text: The epic
       userInput: 0
       triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
     beat1:
-      text: grave of
+      text: 'tale of '
       userInput: 0
       triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
     beat2:
-      text: sticks and
+      text: Funny
       userInput: 0
       triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
     beat3:
-      text: stones,
+      text: Bonez,
       userInput: 0
       triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
   - beat0:
-      text: a necro
+      text: Once a
       userInput: 0
       triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
     beat1:
-      text: mancer with love
+      text: happy
       userInput: 0
       triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
     beat2:
-      text: of
+      text: and up
       userInput: 0
       triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
     beat3:
-      text: acapella.
+      text: lifting fella.
       userInput: 0
       triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
   nextVerses:
   - beatEvent: {fileID: 0}
-    verse: {fileID: 11400000, guid: b4fcf12bf600e944b9d22d2ecbd9ec2b, type: 2}
+    verse: {fileID: 11400000, guid: 43151e11bc371cd4d894c5b3fee07404, type: 2}

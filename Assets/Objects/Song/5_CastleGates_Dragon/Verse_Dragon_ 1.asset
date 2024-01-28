@@ -16,35 +16,35 @@ MonoBehaviour:
   song: {fileID: 0}
   bars:
   - beat0:
-      text: Funny Bonez found himself outside the castle gates,
+      text: Funny Bonez
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 
+      text: found himself
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: outside the castle
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: 
+      text: gates,
       userInput: 0
       triggerEvent: {fileID: 0}
   - beat0:
-      text: 'where his nemeses supposedly awaits. '
+      text: where his
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 
+      text: nemeses
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: supposedly
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: 
+      text: 'awaits. '
       userInput: 0
       triggerEvent: {fileID: 0}
   nextVerses:

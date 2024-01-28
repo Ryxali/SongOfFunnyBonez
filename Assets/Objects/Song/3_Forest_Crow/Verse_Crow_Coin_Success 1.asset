@@ -10,43 +10,43 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1fdcdbe6c109dc14f882a98cd86310e4, type: 3}
-  m_Name: Verse_Culprit_ 12
+  m_Name: Verse_Crow_Coin_Success 1
   m_EditorClassIdentifier: 
   track: {fileID: 11400000, guid: ae5bac75e756b6d49988bd8137b82d3e, type: 2}
   song: {fileID: 0}
   bars:
   - beat0:
-      text: And so Funny Bonez had found his Humerus and too his friend at that.
+      text: 'The bone you '
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 
+      text: 'seek has '
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: 'gone down '
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: 
+      text: 'this trail, '
       userInput: 0
       triggerEvent: {fileID: 0}
   - beat0:
-      text: 'But your Humor, Mr. Funny Bonez, that is just not, your hat. '
+      text: now leave me
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 
+      text: this instant  or
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: 'your bones will '
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: 
+      text: 'grow frail. '
       userInput: 0
       triggerEvent: {fileID: 0}
   nextVerses:
   - beatEvent: {fileID: 0}
-    verse: {fileID: 11400000, guid: b9baf3c757fcfa04382c9dc32db27277, type: 2}
+    verse: {fileID: 11400000, guid: c109df4a48f0b8646b000030c2f4461e, type: 2}

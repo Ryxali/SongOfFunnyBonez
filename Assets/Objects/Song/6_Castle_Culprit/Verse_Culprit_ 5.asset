@@ -16,35 +16,35 @@ MonoBehaviour:
   song: {fileID: 0}
   bars:
   - beat0:
-      text: Funny Bonez got livid, that was indeed his bone.
+      text: "\u201CNo need to offend,"
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 
+      text: come here my friend!
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: "You\u2019re exhasperation"
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: 
+      text: is futile,
       userInput: 0
       triggerEvent: {fileID: 0}
   - beat0:
-      text: 'He braced himself and began to groan as his rage was now fullblown. '
+      text: rest now and mend,
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 
+      text: this is your journey's end,
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: "to me you\u2019re a"
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: 
+      text: "precious bone pile!\u201D"
       userInput: 0
       triggerEvent: {fileID: 0}
   nextVerses:

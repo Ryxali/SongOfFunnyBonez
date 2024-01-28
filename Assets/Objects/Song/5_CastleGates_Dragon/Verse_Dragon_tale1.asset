@@ -13,37 +13,38 @@ MonoBehaviour:
   m_Name: Verse_Dragon_tale1
   m_EditorClassIdentifier: 
   track: {fileID: 11400000, guid: 6873f1f222509f04a8f437134cbd17f8, type: 2}
+  song: {fileID: 0}
   bars:
   - beat0:
-      text: This is the tale
+      text: The epic
       userInput: 0
       triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
     beat1:
-      text: of Funny Bonez,
+      text: 'tale of '
       userInput: 0
       triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
     beat2:
-      text: Once a happy
+      text: Funny
       userInput: 0
       triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
     beat3:
-      text: and uplifting fella,
+      text: Bonez,
       userInput: 0
       triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
   - beat0:
-      text: rose from the grave
+      text: Once a
       userInput: 0
       triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
     beat1:
-      text: of sticks and stones,
+      text: happy
       userInput: 0
       triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
     beat2:
-      text: a necromancer with
+      text: and up
       userInput: 0
       triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
     beat3:
-      text: love of acapella.
+      text: lifting fella.
       userInput: 0
       triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
   nextVerses:

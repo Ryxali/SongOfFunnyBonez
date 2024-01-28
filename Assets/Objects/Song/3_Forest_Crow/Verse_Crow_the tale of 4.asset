@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1fdcdbe6c109dc14f882a98cd86310e4, type: 3}
-  m_Name: Verse_Crow_the tale of 2
+  m_Name: Verse_Crow_the tale of 4
   m_EditorClassIdentifier: 
   track: {fileID: 0}
   song: {fileID: 0}
@@ -49,4 +49,4 @@ MonoBehaviour:
       triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
   nextVerses:
   - beatEvent: {fileID: 0}
-    verse: {fileID: 11400000, guid: b4fcf12bf600e944b9d22d2ecbd9ec2b, type: 2}
+    verse: {fileID: 11400000, guid: af04d4c1a3d809247a7f71613ce820b8, type: 2}

@@ -16,35 +16,35 @@ MonoBehaviour:
   song: {fileID: 0}
   bars:
   - beat0:
-      text: He approached to get it open, but locked it was.
+      text: He approached
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 
+      text: to get it open,
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: but locked
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: 
+      text: it was.
       userInput: 0
       triggerEvent: {fileID: 0}
   - beat0:
-      text: "\u201CNo worries\u201D Funny Bonez announced, \u201CI\u2019ll"
+      text: "\u201CNo worries\u201D"
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 
+      text: Funny Bonez announced,
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: "\u201CI\u2019ll"
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: ______".
+      text: ______."
       userInput: 1
       triggerEvent: {fileID: 0}
   nextVerses:

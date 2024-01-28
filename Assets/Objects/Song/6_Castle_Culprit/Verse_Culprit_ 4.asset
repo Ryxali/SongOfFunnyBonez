@@ -16,35 +16,35 @@ MonoBehaviour:
   song: {fileID: 0}
   bars:
   - beat0:
-      text: "Your life, I thought you lost it, have you come for this knickknack?\u201D "
+      text: Funny Bonez
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 
+      text: got livid,
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: that was indeed
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: 
+      text: his bone.
       userInput: 0
       triggerEvent: {fileID: 0}
   - beat0:
-      text: 
+      text: He braced himself
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 
+      text: and began to groan
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: as his rage
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: 
+      text: was now fullblown.
       userInput: 0
       triggerEvent: {fileID: 0}
   nextVerses:

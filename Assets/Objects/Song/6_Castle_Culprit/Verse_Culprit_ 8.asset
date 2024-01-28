@@ -16,35 +16,35 @@ MonoBehaviour:
   song: {fileID: 0}
   bars:
   - beat0:
-      text: Funny Bonez got livid, that was indeed his bone.
+      text: "\u201CFunny Bonez,"
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 
+      text: hear my plea,
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: I merely took your Humerus
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: 
+      text: The Funny
       userInput: 0
       triggerEvent: {fileID: 0}
   - beat0:
-      text: 'He braced himself and began to groan as his rage was now fullblown. '
+      text: was never more
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 
+      text: than a name,
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: you never had any humor
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: 
+      text: to begin with.
       userInput: 0
       triggerEvent: {fileID: 0}
   nextVerses:

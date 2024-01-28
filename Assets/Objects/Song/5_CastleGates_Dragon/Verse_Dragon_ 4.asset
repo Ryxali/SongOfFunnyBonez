@@ -16,35 +16,35 @@ MonoBehaviour:
   song: {fileID: 0}
   bars:
   - beat0:
-      text: Before Funny Bonez appeared a big and scary dragon!
+      text: Before Funny Bonez
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 
+      text: appeared a big
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: and scary
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: 
+      text: dragon!
       userInput: 0
       triggerEvent: {fileID: 0}
   - beat0:
-      text: "\u201CHello skelly boy, my name is big red dragon\u201D"
+      text: "\u201CHello skelly boy,"
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 
+      text: my name is
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: big red
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: 
+      text: "dragon\u201D"
       userInput: 0
       triggerEvent: {fileID: 0}
   nextVerses:

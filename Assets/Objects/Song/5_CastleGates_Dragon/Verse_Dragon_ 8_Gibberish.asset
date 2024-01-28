@@ -16,36 +16,35 @@ MonoBehaviour:
   song: {fileID: 0}
   bars:
   - beat0:
-      text: "\u201CWhat? no, that's not even a key of any kind\u2026\u201D the Dragon
-        looked at you, confused by your stupidity."
+      text: "\u201CWhat? no, that's"
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 
+      text: not even
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: a key of
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: 
+      text: "any kind\u2026\u201D"
       userInput: 0
       triggerEvent: {fileID: 0}
   - beat0:
-      text: 
+      text: the Dragon
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 
+      text: looked at you,
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: confused by
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: 
+      text: your stupidity.
       userInput: 0
       triggerEvent: {fileID: 0}
   nextVerses:

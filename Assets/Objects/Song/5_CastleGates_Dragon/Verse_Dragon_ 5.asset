@@ -16,35 +16,35 @@ MonoBehaviour:
   song: {fileID: 0}
   bars:
   - beat0:
-      text: "\u201CYou have to find the right key to gain entry to this castle,"
+      text: "\u201CYou have to find"
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 
+      text: the <style=keyword>right</style> key to
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: gain entry to
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: 
+      text: this castle,
       userInput: 0
       triggerEvent: {fileID: 0}
   - beat0:
-      text: "the answer to this riddle might prove to be a hassle\u201D."
+      text: the answer to
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 
+      text: this riddle might
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: prove to be
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: 
+      text: "a hassle\u201D."
       userInput: 0
       triggerEvent: {fileID: 0}
   nextVerses:

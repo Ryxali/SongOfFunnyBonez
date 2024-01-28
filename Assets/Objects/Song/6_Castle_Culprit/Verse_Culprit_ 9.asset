@@ -16,32 +16,31 @@ MonoBehaviour:
   song: {fileID: 0}
   bars:
   - beat0:
-      text: "\u201CBut with it comes my humor! Without it I\u2019m just Bonez. so
-        tell me you \u2620\uFE0F boomer, now you will atone!"
+      text: But here,
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 
+      text: my friend,
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: at last
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: ______
-      userInput: 1
+      text: my friend,
+      userInput: 0
       triggerEvent: {fileID: 0}
   - beat0:
-      text: 
+      text: complete
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 
+      text: you are
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: "again.\u201D"
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
@@ -50,4 +49,4 @@ MonoBehaviour:
       triggerEvent: {fileID: 0}
   nextVerses:
   - beatEvent: {fileID: 0}
-    verse: {fileID: 11400000, guid: 32706512b206dba4a9d3825835748f4f, type: 2}
+    verse: {fileID: 11400000, guid: 315871f9290bb894cb86a619cab656da, type: 2}
