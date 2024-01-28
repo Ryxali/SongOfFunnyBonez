@@ -15,35 +15,35 @@ MonoBehaviour:
   track: {fileID: 11400000, guid: 6873f1f222509f04a8f437134cbd17f8, type: 2}
   bars:
   - beat0:
-      text: Funny Bonez woke up
+      text: The spell is
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: in a cave,
+      text: <style=keyword>fabulous,</style>,
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: he rose and his gaze
+      text: Funny Bonez
       userInput: 0
-      triggerEvent: {fileID: 11400000, guid: 8c2951381a5462249b137e2141600b05, type: 2}
+      triggerEvent: {fileID: 0}
     beat3:
-      text: met that of Daves.
+      text: is not.
       userInput: 0
       triggerEvent: {fileID: 0}
   - beat0:
-      text: A fellow necromancer
+      text: 'He will '
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: it seems,
+      text: use it all
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: tho still some flesh
+      text: but not
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: and brimming with dreams.
+      text: alot.
       userInput: 0
       triggerEvent: {fileID: 0}
   nextVerses:

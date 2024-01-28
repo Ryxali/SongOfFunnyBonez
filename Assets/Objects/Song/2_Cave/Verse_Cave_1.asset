@@ -15,35 +15,35 @@ MonoBehaviour:
   track: {fileID: 11400000, guid: 6873f1f222509f04a8f437134cbd17f8, type: 2}
   bars:
   - beat0:
-      text: Funny Bonez rose again
+      text: He cast
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: a hero ready
+      text: the spell he
       userInput: 0
-      triggerEvent: {fileID: 11400000, guid: 0fbabc69806f8384da7068ea0a4de5be, type: 2}
+      triggerEvent: {fileID: 0}
     beat2:
-      text: for a journey
+      text: knew so
       userInput: 0
-      triggerEvent: {fileID: 11400000, guid: d82d7c5c3a9480240b2b1bef78f5b580, type: 2}
+      triggerEvent: {fileID: 0}
     beat3:
-      text: of pain
+      text: 'well:'
       userInput: 0
-      triggerEvent: {fileID: 11400000, guid: 270f43b516a63e746ac6871917764f6b, type: 2}
+      triggerEvent: {fileID: 0}
   - beat0:
-      text: The spell is <style=keyword>fabulous</style>,
+      text: <style=keyword>Get Up</style>
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: Funny Bonez is not,
+      text: <style=keyword>At the</style>
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: he will use it for all,
+      text: <style=keyword>Sound of</style>
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: but not a lot.
+      text: <style=keyword>the Bell!</style>
       userInput: 0
       triggerEvent: {fileID: 0}
   nextVerses:

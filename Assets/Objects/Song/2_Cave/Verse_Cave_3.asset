@@ -15,39 +15,39 @@ MonoBehaviour:
   track: {fileID: 11400000, guid: 6873f1f222509f04a8f437134cbd17f8, type: 2}
   bars:
   - beat0:
-      text: Dave asked how
+      text: Funny Bonez
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: his new blue shirt looked,
+      text: woke up
       userInput: 0
-      triggerEvent: {fileID: 0}
+      triggerEvent: {fileID: 11400000, guid: 0fbabc69806f8384da7068ea0a4de5be, type: 2}
     beat2:
-      text: charles, kingston and mittens
+      text: in a cave
       userInput: 0
-      triggerEvent: {fileID: 0}
+      triggerEvent: {fileID: 11400000, guid: d82d7c5c3a9480240b2b1bef78f5b580, type: 2}
     beat3:
-      text: had it overlooked.
+      text: he rose,
       userInput: 0
-      triggerEvent: {fileID: 0}
+      triggerEvent: {fileID: 11400000, guid: 270f43b516a63e746ac6871917764f6b, type: 2}
   - beat0:
-      text: the maggots in his face
+      text: 'and his '
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: waved with glee,
+      text: gaze met
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: Funny Bonez answered
+      text: that of
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: ________ly
-      userInput: 1
-      triggerEvent: {fileID: 11400000, guid: 06c1a9a5fb5e3df4f9b8ee6d2f468b81, type: 2}
+      text: Daves.
+      userInput: 0
+      triggerEvent: {fileID: 11400000, guid: 8c2951381a5462249b137e2141600b05, type: 2}
   nextVerses:
   - beatEvent: {fileID: 0}
-    verse: {fileID: 11400000, guid: 5762610ba256d1441b9264d580b11e88, type: 2}
+    verse: {fileID: 11400000, guid: 7a156ca1c1adfc841a90f85880ae2cdb, type: 2}
   - beatEvent: {fileID: 11400000, guid: 2838684013dd43140ac124a7967231f4, type: 2}
     verse: {fileID: 11400000, guid: 7a156ca1c1adfc841a90f85880ae2cdb, type: 2}

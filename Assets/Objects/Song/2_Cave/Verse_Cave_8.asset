@@ -15,37 +15,37 @@ MonoBehaviour:
   track: {fileID: 11400000, guid: 6873f1f222509f04a8f437134cbd17f8, type: 2}
   bars:
   - beat0:
-      text: This is the tale
+      text: '"Appreciate the'
       userInput: 0
-      triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
+      triggerEvent: {fileID: 0}
     beat1:
-      text: of Funny Bonez,
+      text: compliment",
       userInput: 0
-      triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
+      triggerEvent: {fileID: 0}
     beat2:
-      text: Once a happy
+      text: the zombie did
       userInput: 0
-      triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
+      triggerEvent: {fileID: 0}
     beat3:
-      text: and uplifting fella,
+      text: confess.
       userInput: 0
-      triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
+      triggerEvent: {fileID: 0}
   - beat0:
-      text: rose from the grave
+      text: '"Have this metal'
       userInput: 0
-      triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
+      triggerEvent: {fileID: 0}
     beat1:
-      text: of sticks and stones,
+      text: thing I found,
       userInput: 0
-      triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
+      triggerEvent: {fileID: 0}
     beat2:
-      text: a necromancer with
+      text: for your later
       userInput: 0
-      triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
+      triggerEvent: {fileID: 0}
     beat3:
-      text: love of acapella.
+      text: great success."
       userInput: 0
-      triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
+      triggerEvent: {fileID: 0}
   nextVerses:
   - beatEvent: {fileID: 0}
-    verse: {fileID: 11400000, guid: 66d0bc9cc7d5e094d8900241e4e2ef2f, type: 2}
+    verse: {fileID: 11400000, guid: 26226666379883d4f87b4aa470da5568, type: 2}

@@ -10,42 +10,42 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1fdcdbe6c109dc14f882a98cd86310e4, type: 3}
-  m_Name: Verse_Cave_4_Failure
+  m_Name: Verse_Intro_1
   m_EditorClassIdentifier: 
-  track: {fileID: 11400000, guid: 6873f1f222509f04a8f437134cbd17f8, type: 2}
+  track: {fileID: 11400000, guid: 9bf18569c8bd1d2458983a677e749a74, type: 2}
   bars:
   - beat0:
-      text: Dave takes great
+      text: Rose from the
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: offense to this!
+      text: grave of
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: "\u201CYou know I\u2019m sensitive"
+      text: sticks and
       userInput: 0
-      triggerEvent: {fileID: 11400000, guid: dfa5c748f56f7f74795bf1b22aea6726, type: 2}
+      triggerEvent: {fileID: 0}
     beat3:
-      text: "about my blue shirt!\u201D"
+      text: stones,
       userInput: 0
       triggerEvent: {fileID: 0}
   - beat0:
-      text: he cries.
+      text: a necro
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 
+      text: mancer with love
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: of
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: 
+      text: acapella.
       userInput: 0
       triggerEvent: {fileID: 0}
   nextVerses:
   - beatEvent: {fileID: 0}
-    verse: {fileID: 11400000, guid: 02ccf22b3555ddc40ae5ae408c929fb2, type: 2}
+    verse: {fileID: 11400000, guid: 59595907127cdbe419e9ee5aa46d1bf9, type: 2}

@@ -15,37 +15,39 @@ MonoBehaviour:
   track: {fileID: 11400000, guid: 6873f1f222509f04a8f437134cbd17f8, type: 2}
   bars:
   - beat0:
-      text: This is the tale
+      text: The Maggots,
       userInput: 0
-      triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
+      triggerEvent: {fileID: 0}
     beat1:
-      text: of Funny Bonez,
+      text: in Daves
       userInput: 0
-      triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
+      triggerEvent: {fileID: 0}
     beat2:
-      text: Once a happy
+      text: face waved
       userInput: 0
-      triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
+      triggerEvent: {fileID: 0}
     beat3:
-      text: and uplifting fella,
+      text: with glee,
       userInput: 0
-      triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
+      triggerEvent: {fileID: 0}
   - beat0:
-      text: rose from the grave
+      text: Funny Bonez
       userInput: 0
-      triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
+      triggerEvent: {fileID: 0}
     beat1:
-      text: of sticks and stones,
+      text: 'then answered:'
       userInput: 0
-      triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
+      triggerEvent: {fileID: 0}
     beat2:
-      text: a necromancer with
+      text: 
       userInput: 0
-      triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
+      triggerEvent: {fileID: 0}
     beat3:
-      text: love of acapella.
-      userInput: 0
-      triggerEvent: {fileID: 11400000, guid: 757f86040e723494c95587bac11997ff, type: 2}
+      text: ______ly
+      userInput: 1
+      triggerEvent: {fileID: 11400000, guid: 06c1a9a5fb5e3df4f9b8ee6d2f468b81, type: 2}
   nextVerses:
   - beatEvent: {fileID: 0}
+    verse: {fileID: 11400000, guid: 5762610ba256d1441b9264d580b11e88, type: 2}
+  - beatEvent: {fileID: 11400000, guid: 2838684013dd43140ac124a7967231f4, type: 2}
     verse: {fileID: 11400000, guid: 02ccf22b3555ddc40ae5ae408c929fb2, type: 2}
