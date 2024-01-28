@@ -16,35 +16,35 @@ MonoBehaviour:
   song: {fileID: 0}
   bars:
   - beat0:
-      text: Resting on a branch by his path,
+      text: Resting on
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 
+      text: a branch
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: by his
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: 
+      text: path,
       userInput: 0
       triggerEvent: {fileID: 0}
   - beat0:
-      text: 'A Crow was spreading rumors. '
+      text: A Crow
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 
+      text: was
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: spreading
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: 
+      text: 'rumors. '
       userInput: 0
       triggerEvent: {fileID: 0}
   nextVerses:

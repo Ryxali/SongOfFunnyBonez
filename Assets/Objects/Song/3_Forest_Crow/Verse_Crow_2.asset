@@ -16,41 +16,37 @@ MonoBehaviour:
   song: {fileID: 0}
   bars:
   - beat0:
-      text: Funny Bonez shouted at the crow
+      text: Funny Bonez knew such
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 
+      text: creatures were
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: brimming with
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: 
+      text: intellect,
       userInput: 0
       triggerEvent: {fileID: 0}
   - beat0:
-      text: "\u201CHave you seen The Stolen"
+      text: he figured they must
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 
+      text: know the way so
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: with the crow
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: "_____\u201D"
+      text: he checked!
       userInput: 1
-      triggerEvent: {fileID: 11400000, guid: 38d672f8d7e3a1f4691739e4f433592e, type: 2}
+      triggerEvent: {fileID: 0}
   nextVerses:
   - beatEvent: {fileID: 0}
-    verse: {fileID: 11400000, guid: 36e5abb7bb7e4bb4998af5f52b9c2930, type: 2}
-  - beatEvent: {fileID: 11400000, guid: 2262499d54e227c4a9ed6af657b2b767, type: 2}
-    verse: {fileID: 11400000, guid: ca51a3875160f2f4fb5f4fa0416ad929, type: 2}
-  - beatEvent: {fileID: 11400000, guid: a841bcc7d60815546941d71ce9f088ab, type: 2}
-    verse: {fileID: 11400000, guid: ca51a3875160f2f4fb5f4fa0416ad929, type: 2}
+    verse: {fileID: 11400000, guid: b4fcf12bf600e944b9d22d2ecbd9ec2b, type: 2}
