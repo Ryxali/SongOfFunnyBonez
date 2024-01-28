@@ -18,7 +18,7 @@ public class MetronomeInputEvent : MetronomeEvent
         var inputString = PlayerInputCollector.Instance.Current;
         foreach(var pair in acceptedInput)
         {
-            if(pair.trigger && string.Equals(pair.inputString, inputString))
+            if(pair.trigger && string.Equals(pair.inputString, inputString, System.StringComparison.OrdinalIgnoreCase))
             {
                 pair.trigger.Trigger();
             }
