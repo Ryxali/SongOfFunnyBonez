@@ -44,7 +44,7 @@ MonoBehaviour:
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: this sale.
+      text: this <style=keyword>sale</style>.
       userInput: 0
       triggerEvent: {fileID: 0}
   nextVerses:
