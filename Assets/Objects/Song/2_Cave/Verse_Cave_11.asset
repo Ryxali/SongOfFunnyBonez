@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Verse_Cave_11
   m_EditorClassIdentifier: 
   track: {fileID: 0}
-  song: {fileID: 0}
+  song: {fileID: 8300000, guid: 1f28e1557de8faa4ea1325a72fd0ccea, type: 3}
   bars:
   - beat0:
       text: He knew that

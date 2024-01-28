@@ -27,7 +27,7 @@ public class RaiseEffect : MonoEffect
         var end = now + duration;
         while (Time.time < end)
         {
-            var ev = curve.Evaluate((Time.time - now) / duration);
+            var ev = curve.Evaluate((Time.time - now));
             transform.localRotation = Quaternion.Slerp(start, Quaternion.identity, ev);
             yield return null;
         }
