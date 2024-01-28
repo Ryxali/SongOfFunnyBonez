@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Verse_Intro
   m_EditorClassIdentifier: 
   track: {fileID: 11400000, guid: 9bf18569c8bd1d2458983a677e749a74, type: 2}
-  song: {fileID: 8300000, guid: 93b63de1140c72744956ba8eff2c8fce, type: 3}
+  song: {fileID: 8300000, guid: 70ff883a86c3f14498f19b9762ba4657, type: 3}
   bars:
   - beat0:
       text: The epic

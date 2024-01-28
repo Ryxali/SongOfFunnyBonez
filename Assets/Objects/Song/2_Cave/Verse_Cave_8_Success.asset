@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Verse_Cave_8_Success
   m_EditorClassIdentifier: 
   track: {fileID: 11400000, guid: 6873f1f222509f04a8f437134cbd17f8, type: 2}
-  song: {fileID: 0}
+  song: {fileID: 8300000, guid: a35008d47962df9439f6d8a5ccf3527b, type: 3}
   bars:
   - beat0:
       text: '"Appreciate the'

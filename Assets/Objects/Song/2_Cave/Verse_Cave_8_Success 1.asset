@@ -18,7 +18,7 @@ MonoBehaviour:
   - beat0:
       text: Funny Bonez
       userInput: 0
-      triggerEvent: {fileID: 11400000, guid: 13c916d59f2883843b3aa9b0e03113f2, type: 2}
+      triggerEvent: {fileID: 0}
     beat1:
       text: is handed
       userInput: 0
@@ -34,7 +34,7 @@ MonoBehaviour:
   - beat0:
       text: 
       userInput: 0
-      triggerEvent: {fileID: 11400000, guid: 13c916d59f2883843b3aa9b0e03113f2, type: 2}
+      triggerEvent: {fileID: 0}
     beat1:
       text: 
       userInput: 0
@@ -42,7 +42,7 @@ MonoBehaviour:
     beat2:
       text: 
       userInput: 0
-      triggerEvent: {fileID: 11400000, guid: 13c916d59f2883843b3aa9b0e03113f2, type: 2}
+      triggerEvent: {fileID: 0}
     beat3:
       text: 
       userInput: 0
