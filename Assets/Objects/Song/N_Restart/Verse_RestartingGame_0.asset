@@ -18,11 +18,11 @@ MonoBehaviour:
   - beat0:
       text: Don't worry we'll be right back with a scheduled installment
       userInput: 0
-      triggerEvent: {fileID: 0}
+      triggerEvent: {fileID: 11400000, guid: e9f8d72389b116840be11600b324b689, type: 2}
     beat1:
       text: 
       userInput: 0
-      triggerEvent: {fileID: 11400000, guid: f64ff205c65e15e4383dd10ac899574e, type: 2}
+      triggerEvent: {fileID: 0}
     beat2:
       text: 
       userInput: 0
@@ -46,7 +46,7 @@ MonoBehaviour:
     beat3:
       text: 
       userInput: 0
-      triggerEvent: {fileID: 0}
+      triggerEvent: {fileID: 11400000, guid: f64ff205c65e15e4383dd10ac899574e, type: 2}
   nextVerses:
   - beatEvent: {fileID: 0}
     verse: {fileID: 11400000, guid: 8d88d91125a33db4eb0eb7cbf7b6c815, type: 2}
