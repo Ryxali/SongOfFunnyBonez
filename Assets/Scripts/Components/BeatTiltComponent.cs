@@ -22,6 +22,7 @@ public class BeatTiltComponent : MonoBehaviour
 
     private void OnDisable()
     {
+        transform.localRotation = Quaternion.identity;
         Metronome.onTick -= Metronome_onTick;
     }
 
