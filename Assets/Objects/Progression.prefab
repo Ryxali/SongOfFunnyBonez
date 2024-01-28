@@ -559,6 +559,7 @@ GameObject:
   - component: {fileID: 4586577123618367108}
   - component: {fileID: 8841445099725081931}
   - component: {fileID: 8054908282935002003}
+  - component: {fileID: 5317502645668431668}
   m_Layer: 5
   m_Name: FadeInCanvas
   m_TagString: Untagged
@@ -669,9 +670,21 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  image: {fileID: 7957598285441398841}
+  image: {fileID: 5317502645668431668}
   triggerBeat: {fileID: 11400000, guid: 3f734f9a8e35be949a7797ab59af4de1, type: 2}
   waitNBars: 2
+--- !u!225 &5317502645668431668
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 34271333255674876}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &737005995917654476
 GameObject:
   m_ObjectHideFlags: 0
