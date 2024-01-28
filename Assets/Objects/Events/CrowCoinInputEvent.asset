@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3fb90422ab7fe843b6ccaaf6ab25215, type: 3}
+  m_Name: CrowCoinInputEvent
+  m_EditorClassIdentifier: 
+  acceptedInput:
+  - inputString: coin
+    trigger: {fileID: 11400000, guid: ca8e64203aa21a045bdebdea21db4578, type: 2}
+  - inputString: fabulous
+    trigger: {fileID: 11400000, guid: 92b2f08ec1e44574986544a6a81b9459, type: 2}
+  - inputString: get up at the sound of the bell
+    trigger: {fileID: 11400000, guid: f95a10b3a0d720341aef7303e57f6345, type: 2}

@@ -10,42 +10,43 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1fdcdbe6c109dc14f882a98cd86310e4, type: 3}
-  m_Name: Verse_Cave_8
+  m_Name: Verse_Crow_Humor_Success
   m_EditorClassIdentifier: 
-  track: {fileID: 11400000, guid: 6873f1f222509f04a8f437134cbd17f8, type: 2}
+  track: {fileID: 11400000, guid: ae5bac75e756b6d49988bd8137b82d3e, type: 2}
+  song: {fileID: 0}
   bars:
   - beat0:
-      text: '"Appreciate the'
+      text: Funny Bonez knew such creatures were brimming with intellect,
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: compliment",
+      text: 
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: the zombie did
+      text: 
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: confess.
+      text: 
       userInput: 0
       triggerEvent: {fileID: 0}
   - beat0:
-      text: '"Have this metal'
+      text: 'he figured they must know the way so with the crow he checked!  '
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: thing I found,
+      text: 
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: for your later
+      text: 
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: great success."
+      text: 
       userInput: 0
       triggerEvent: {fileID: 0}
   nextVerses:
   - beatEvent: {fileID: 0}
-    verse: {fileID: 11400000, guid: 26226666379883d4f87b4aa470da5568, type: 2}
+    verse: {fileID: 11400000, guid: 1279729fe7780fa4d84e9f26451afe85, type: 2}

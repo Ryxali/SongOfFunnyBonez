@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1fdcdbe6c109dc14f882a98cd86310e4, type: 3}
-  m_Name: Verse_Dryad_8
+  m_Name: Verse_Crow_4_
   m_EditorClassIdentifier: 
   track: {fileID: 11400000, guid: ae5bac75e756b6d49988bd8137b82d3e, type: 2}
   song: {fileID: 0}
   bars:
   - beat0:
-      text: His path was blocked, this could end bad.
+      text: "\u201CTo me my Humor I have to rejoin!\u201D"
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
@@ -32,7 +32,7 @@ MonoBehaviour:
       userInput: 0
       triggerEvent: {fileID: 0}
   - beat0:
-      text: "He couldn\u2019t smash the box, the leprechaun would be mad."
+      text: "\u201CTell me and you will get this"
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
@@ -44,9 +44,15 @@ MonoBehaviour:
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: 
-      userInput: 0
-      triggerEvent: {fileID: 0}
+      text: "____\u201D"
+      userInput: 1
+      triggerEvent: {fileID: 11400000, guid: 7469e3ec54f35514fb7c956f295a9a88, type: 2}
   nextVerses:
   - beatEvent: {fileID: 0}
-    verse: {fileID: 11400000, guid: dd89d191aad7f7f4f8083f46a213a854, type: 2}
+    verse: {fileID: 11400000, guid: 1337bfd3d4b6cde419b41c83970d47ca, type: 2}
+  - beatEvent: {fileID: 11400000, guid: e5f068a769db0744ea3112a8092f60d5, type: 2}
+    verse: {fileID: 11400000, guid: 5a833b22265aafc44b65e3dcb655482c, type: 2}
+  - beatEvent: {fileID: 11400000, guid: ca8e64203aa21a045bdebdea21db4578, type: 2}
+    verse: {fileID: 11400000, guid: 80c0362d5b89e6e499f9cfb2972e3a01, type: 2}
+  - beatEvent: {fileID: 11400000, guid: f95a10b3a0d720341aef7303e57f6345, type: 2}
+    verse: {fileID: 11400000, guid: a21abc093d94bba45bf41bea095cac58, type: 2}
