@@ -36,11 +36,11 @@ MonoBehaviour:
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 
+      text: Just... Just
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: type the word
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:

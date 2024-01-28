@@ -16,11 +16,11 @@ MonoBehaviour:
   song: {fileID: 0}
   bars:
   - beat0:
-      text: Just... Just
+      text: 
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: type the word
+      text: 
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:

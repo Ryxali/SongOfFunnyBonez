@@ -30,7 +30,7 @@ MonoBehaviour:
     beat3:
       text: _____
       userInput: 1
-      triggerEvent: {fileID: 0}
+      triggerEvent: {fileID: 11400000, guid: 69b6ef5db301bde498946a9599de73a2, type: 2}
   - beat0:
       text: No Seriously, Go.
       userInput: 0
@@ -44,9 +44,9 @@ MonoBehaviour:
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: _____
-      userInput: 1
+      text: 
+      userInput: 0
       triggerEvent: {fileID: 0}
   nextVerses:
-  - beatEvent: {fileID: 0}
+  - beatEvent: {fileID: 11400000, guid: 26cd5460aa8e7f848b7325eecf633076, type: 2}
     verse: {fileID: 11400000}
