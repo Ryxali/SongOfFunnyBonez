@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fdcdbe6c109dc14f882a98cd86310e4, type: 3}
+  m_Name: Verse_Dragon_ 6
+  m_EditorClassIdentifier: 
+  track: {fileID: 11400000, guid: ae5bac75e756b6d49988bd8137b82d3e, type: 2}
+  song: {fileID: 0}
+  bars:
+  - beat0:
+      text: "\u201C<style=keyword>Sharpen</style> your senses\u201D,"
+      userInput: 0
+      triggerEvent: {fileID: 0}
+    beat1:
+      text: he paused
+      userInput: 0
+      triggerEvent: {fileID: 0}
+    beat2:
+      text: and gave
+      userInput: 0
+      triggerEvent: {fileID: 0}
+    beat3:
+      text: a smirk,
+      userInput: 0
+      triggerEvent: {fileID: 0}
+  - beat0:
+      text: "\u201Cmight be a bit <style=keyword>higher</style>"
+      userInput: 0
+      triggerEvent: {fileID: 0}
+    beat1:
+      text: " than expected\u201D"
+      userInput: 0
+      triggerEvent: {fileID: 0}
+    beat2:
+      text: the dragon said
+      userInput: 0
+      triggerEvent: {fileID: 0}
+    beat3:
+      text: like a jerk.
+      userInput: 0
+      triggerEvent: {fileID: 0}
+  nextVerses:
+  - beatEvent: {fileID: 0}
+    verse: {fileID: 11400000, guid: 80a56caf3a1332d428d8c9f8bdebd683, type: 2}

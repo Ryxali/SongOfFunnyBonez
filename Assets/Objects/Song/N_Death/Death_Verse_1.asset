@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fdcdbe6c109dc14f882a98cd86310e4, type: 3}
+  m_Name: Death_Verse_1
+  m_EditorClassIdentifier: 
+  track: {fileID: 0}
+  song: {fileID: 0}
+  bars:
+  - beat0:
+      text: where every
+      userInput: 0
+      triggerEvent: {fileID: 0}
+    beat1:
+      text: day he
+      userInput: 0
+      triggerEvent: {fileID: 0}
+    beat2:
+      text: would wake
+      userInput: 0
+      triggerEvent: {fileID: 0}
+    beat3:
+      text: up
+      userInput: 0
+      triggerEvent: {fileID: 0}
+  - beat0:
+      text: to start
+      userInput: 0
+      triggerEvent: {fileID: 0}
+    beat1:
+      text: his search
+      userInput: 0
+      triggerEvent: {fileID: 0}
+    beat2:
+      text: for ever
+      userInput: 0
+      triggerEvent: {fileID: 0}
+    beat3:
+      text: more.
+      userInput: 0
+      triggerEvent: {fileID: 0}
+  nextVerses:
+  - beatEvent: {fileID: 0}
+    verse: {fileID: 11400000, guid: ce33fd0ddf2ab144d8fcdebc33ce521c, type: 2}

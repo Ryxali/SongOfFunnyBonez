@@ -16,31 +16,31 @@ MonoBehaviour:
   song: {fileID: 0}
   bars:
   - beat0:
-      text: "\u201CTo me my Humor I have to rejoin!\u201D"
+      text: "\u201CTo me"
       userInput: 0
       triggerEvent: {fileID: 11400000, guid: 86daea3e8fb316e40858aca7d8a7d49a, type: 2}
     beat1:
-      text: 
+      text: my Humor
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: I have to
       userInput: 0
       triggerEvent: {fileID: 11400000, guid: 86daea3e8fb316e40858aca7d8a7d49a, type: 2}
     beat3:
-      text: 
+      text: rejoin!
       userInput: 0
       triggerEvent: {fileID: 0}
   - beat0:
-      text: "\u201CTell me and you will get this"
+      text: 'Tell me '
       userInput: 0
       triggerEvent: {fileID: 11400000, guid: 86daea3e8fb316e40858aca7d8a7d49a, type: 2}
     beat1:
-      text: 
+      text: 'and you '
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: will get this
       userInput: 0
       triggerEvent: {fileID: 11400000, guid: 86daea3e8fb316e40858aca7d8a7d49a, type: 2}
     beat3:

@@ -16,35 +16,35 @@ MonoBehaviour:
   song: {fileID: 0}
   bars:
   - beat0:
-      text: Funny Bonez looked down where his arm used to stay.
+      text: Funny Bonez looked
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 
+      text: down where
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: his arm used
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: 
+      text: to stay.
       userInput: 0
       triggerEvent: {fileID: 0}
   - beat0:
-      text: 'An empty socket, disarmed, no charm, no humor.  '
+      text: An empty socket,
       userInput: 0
       triggerEvent: {fileID: 0}
     beat1:
-      text: 
+      text: disarmed,
       userInput: 0
       triggerEvent: {fileID: 0}
     beat2:
-      text: 
+      text: no charm,
       userInput: 0
       triggerEvent: {fileID: 0}
     beat3:
-      text: 
+      text: 'no humor. '
       userInput: 0
       triggerEvent: {fileID: 0}
   nextVerses:
