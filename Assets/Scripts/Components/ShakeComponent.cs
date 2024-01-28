@@ -23,7 +23,7 @@ public class ShakeComponent : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         transform.localPosition = Random.insideUnitCircle * magnitude;
     }
